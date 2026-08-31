@@ -1,11 +1,11 @@
 ---
 title: "Human Kernel / Theory of Psychological Autonomy — Master Context"
 author: "Jani Halmetoja"
-version: "0.3.3"
-date: "2026-08-25"
+version: "0.4.0"
+date: "2026-08-30"
 language: "en"
 status: "Canonical working context; theoretical research programme, not a validated clinical model"
-supersedes: "THEORY_OF_PSYCHOLOGICAL_AUTONOMY_MASTER_CONTEXT.md, version 0.2"
+supersedes: "Human Kernel master context version 0.3.3 (2026-08-25)"
 ---
 
 # Human Kernel / Theory of Psychological Autonomy
@@ -23,6 +23,10 @@ The book's current working title is:
 Current Finnish subtitle:
 
 > **Psykologisen autonomian arkkitehtuuri**
+
+Current international positioning line **[PROVISIONAL]**:
+
+> **Human Psychology for Programmers**
 
 The title is intentionally short, comprehensible, ambitious, and slightly audacious. *Kernel* is an engineering metaphor, not a proposed anatomical structure.
 
@@ -73,8 +77,47 @@ Preserve the project's canonical terms:
 - other-sacrifice
 - Blame–Responsibility Market
 - Blame–Responsibility Routing Network
+- protected meta-layer
+- psychological user space
+- provenance
+- update permissions
+- epistemic firewall
+- kernel firewall
+- Reality Tolerance Window
+- meaning network
+- representational topology
+- Structural Empathy
+- Topological Empathy
+- Topological Projection Fallacy
+- Empathic Projection Fallacy
+- Topological Universality Illusion
+- deniable signaling
+- topological probing
+- functional topological literacy
+- Shared Reality
+- ontological security
+- Topological Freedom
 
 Prefer plain psychological language in the book. Engineering terminology should clarify causal structure, dependencies, state transitions, or failure modes. If a technical metaphor merely renames an existing psychological word, remove it.
+
+Canonical theory terms are English. A Finnish-language book may translate or explain them for readers, but translations should not silently become competing formal constructs. The following public-facing vocabulary ladder is **[PROVISIONAL]**:
+
+~~~text
+inner world
+  = what a person experiences
+
+meaning network
+  = how meanings and representations connect
+
+internal structure
+  = how that network is organized
+
+representational topology
+  = the technical description of its connections and dependencies
+
+Structural Empathy
+  = candidate reader-facing name for Topological Empathy
+~~~
 
 Do not make internal references such as “Paper 9” in book prose. The reader is not expected to know the SRF paper sequence.
 
@@ -100,7 +143,7 @@ Engineering formulation:
 
 > **Psychological autonomy is the capacity to maintain one's own psychological wholeness while needing others without losing one's separateness.**
 
-Canonical Finnish formulation:
+Finnish reader-facing translation, not a separate canonical construct:
 
 > **Psykologinen autonomia on kyky ylläpitää oma psykologinen kokonaisuutensa samalla, kun tarvitsee muita menettämättä kokemusta omasta erillisyydestään.**
 
@@ -122,7 +165,7 @@ We can co-regulate without owning each other's continuity.
 
 ### 2.3 Paradigmatic shift
 
-The project began as an attempt to explain narcissistic regulation. It developed into a theory of regulation and then into a broader theory of psychological autonomy.
+The project began as an attempt to explain narcissistic regulation. It developed into a theory of regulation and then into a broader theory of psychological autonomy. Its current center is the relation among a protected kernel, representational topology, reality admission, self–other separation, and Topological Empathy.
 
 Narcissistic organization is now:
 
@@ -140,6 +183,45 @@ Compatible formulations of growth include:
 - the capacity to update a model without losing ontological continuity;
 - and the transition from externally carried toward increasingly self-carried psychological organization.
 
+### 2.4 Current ethical and editorial center
+
+Topological Empathy is the current ethical center of the Human Kernel book:
+
+> **Understanding another person's internal structure can release false guilt without erasing actual responsibility.**
+
+The causal question changes from:
+
+> “What is wrong with me that made them act this way?”
+
+to:
+
+> **“Through what internal structure did this situation become an experience and action like this for them?”**
+
+The shift does not prove the answer, excuse harm, or make responsibility symmetrical. It makes three allocations more precise:
+
+~~~text
+MY TOPOLOGY
+→ my contribution and responsibility
+
+THEIR TOPOLOGY
+→ their contribution and responsibility
+
+INTERACTION
+→ emergent relational dynamics
+~~~
+
+Canonical distinction:
+
+~~~text
+UNDERSTANDING
+≠ APPROVAL
+≠ RESPONSIBILITY ABSORPTION
+~~~
+
+The book's current one-sentence promise **[PROVISIONAL]** is:
+
+> **Human Kernel explains why people can inhabit the same reality but live in radically different inner worlds—and how understanding another person's topology can release false guilt without surrendering one's boundaries.**
+
 ---
 
 ## 3. Canonical architecture
@@ -153,13 +235,15 @@ Signal occurrence and detection
   ↓
 Salience weighting
   ↓
+Activation and routing through the existing meaning network
+  ↓
 Meaning assignment
   ↓
 Self-relevance weighting
   ↓
-Representations / state estimates
+Representation / current world-model
   ↓
-Representational organization (topology)
+Epistemic evaluation and update admission
   ↓
 Interpretation, regulation, and updating
   ↓
@@ -170,6 +254,21 @@ New reality data
 ~~~
 
 The system does not act on reality without mediation. It acts on an internally constructed, weighted, and continuously revised model.
+
+Representational topology is not merely a late output in this sequence. The existing topology helps determine which associations are activated and what a signal can mean; admitted updates can then modify that topology. The relation is recursive:
+
+~~~text
+existing topology
+  ↓
+signal routing and meaning
+  ↓
+current world-model and action
+  ↓
+admitted update
+  ↓
+revised topology
+  ↺
+~~~
 
 This sequence does not imply that subjective processing creates truth. Signal existence, psychological importance, assigned meaning, personal relevance, confidence, and truth value remain distinct.
 
@@ -283,6 +382,22 @@ and what is its truth value?
 ~~~
 
 The fifth stage must not be inferred from the preceding four. Truth value is not produced by felt importance, assigned meaning, personal relevance, or confidence. It depends on correspondence with reality and available evidence.
+
+#### Epistemic firewall
+
+**[METAPHOR/HYPOTHESIS]** The epistemic firewall is the proposed set of checks between felt significance and belief update:
+
+> **“This feels meaningful. What independent evidence supports the interpretation, what alternatives remain possible, and how much confidence is justified?”**
+
+It protects the distinction:
+
+~~~text
+correlation or pattern detected
+        ≠
+causal relation established
+~~~
+
+The firewall is not emotional suppression or reflexive disbelief. It allows subjective meaning to remain emotionally real while keeping its causal or metaphysical interpretation corrigible.
 
 #### How a coincidence becomes a subjectively meaningful sign
 
@@ -415,13 +530,29 @@ Mature attachment allows real influence and co-regulation without giving another
 
 Each successful regulatory strategy changes the starting state of the next event. Repeated short-term solutions can become attractors even when they later create large costs.
 
+### Axiom N — Topological mediation
+
+The psychological effect of an event depends partly on where it connects in the existing meaning network, not only on the event's surface form.
+
+> **People do not react to events alone. They react to what the event connects to in their internal meaning network.**
+
+### Axiom O — Minimal protected kernel
+
+**[HYPOTHESIS]** Flexible autonomy is favored when only genuinely continuity-preserving invariants and metadata receive kernel-level protection, while beliefs, roles, status, performance, relationships, and narratives remain updateable.
+
+Compact formulation:
+
+> **The healthier the system, the smaller the kernel.**
+
+“Smaller” means less contingent content is treated as existentially non-negotiable. It does not mean a weaker self, fewer values, less personality, or reduced emotional depth.
+
 ---
 
 ## 5. Core constructs
 
 ### 5.1 Human kernel
 
-**[METAPHOR/HYPOTHESIS]** The human kernel is the minimal protected continuity that allows a person to experience:
+**[METAPHOR/HYPOTHESIS]** The human kernel is a minimal protected meta-layer of invariants, metadata, and permissions that allows experiences and representations to be organized as belonging to one continuing subject in a sufficiently stable reality.
 
 ~~~text
 I exist.
@@ -429,6 +560,40 @@ I am the subject of this experience.
 My state can change without ending me.
 Another person's state can change without defining my existence.
 ~~~
+
+Candidate kernel functions include:
+
+- continuity: I remain the same subject through state change;
+- ownership: this experience is represented as mine;
+- agency: this action is represented as generated by me;
+- self–world separation: I am not identical with the world;
+- self–other separation: another person is not me;
+- provenance: where a signal, thought, memory, or claim came from;
+- access control: what may influence which layer of the system;
+- epistemic rules: salience, meaning, confidence, and truth are not identical;
+- and update permissions: what evidence may revise which representation.
+
+The kernel is therefore not primarily an answer to **“Who am I?”** It is the protected rule set within which answers to “Who am I?” can change without ending the subject.
+
+#### Psychological user space
+
+**[METAPHOR/HYPOTHESIS]** Beliefs, roles, self-esteem states, status, relationships, success, failure, plans, memories, interpretations, and identity narratives should ordinarily remain in psychological user space: important and sometimes painful, but corrigible.
+
+Pathology may arise partly when contingent user-space content is granted kernel privileges:
+
+~~~text
+updateable belief
+  ↓
+treated as invariant or condition of existence
+  ↓
+contradictory evidence becomes a kernel-level threat
+  ↓
+defense pressure rises
+~~~
+
+Possible other-sacrifice/narcissistic examples include “I must remain blameless, superior, or beyond humiliation.” Possible self-sacrifice examples include “If another is upset, I am responsible” or “I must understand and regulate the other to preserve connection.” These are proposed architectures, not diagnostic rules.
+
+Growth may involve moving wrongly protected content back into user space, where it can be examined and updated while continuity remains protected.
 
 It is not:
 
@@ -657,6 +822,22 @@ compression becomes visible
 
 Compression is universally necessary in many contexts. The problem is rigid, identity-protective, attachment-specific, or non-recovering compression.
 
+**[HYPOTHESIS]** Some forms of overthinking may function as a biased search process rather than an open-ended increase in resolution:
+
+~~~text
+ambiguous relational threat
+  ↓
+search for explanation
+  ↓
+alternatives are generated but not equally weighted
+  ↓
+search stops at the familiar controllability-restoring attractor
+  ↓
+“I am the problem”
+~~~
+
+In this case, more thought does not necessarily produce more representational freedom. The search objective is covertly constrained to find a familiar safe explanation. This is not a general definition of rumination or overthinking.
+
 ### 5.14 Defensive reconstruction and confabulation
 
 Compression removes distinctions. Defensive reconstruction changes meaning, causal allocation, temporal narrative, or represented identity so a protected structure can survive.
@@ -831,7 +1012,8 @@ A healthy internal model is not permanently correct. It is corrigible: it can ab
 | Hardware | Organism, nervous system, body, temperament, biological constraints | **[METAPHOR]** Psychology is not reducible to hardware. |
 | Boot sequence | Early development under caregiver-supported regulation | **[METAPHOR]** |
 | External runtime / bootloader | Caregiver functions that support regulation before the child can do so reliably | **[METAPHOR]** The caregiver is a person, not a utility. |
-| Kernel | Minimal continuity, ownership, agency, and “I exist / I remain me” | **[METAPHOR/HYPOTHESIS]** Not an anatomical module. |
+| Kernel | Minimal protected invariants, metadata, permissions, continuity, ownership, agency, and self–world separation | **[METAPHOR/HYPOTHESIS]** Not an anatomical module or personality essence. |
+| User space | Beliefs, roles, status, narratives, plans, relationships, and other corrigible content | **[METAPHOR/HYPOTHESIS]** Important content can remain updateable. |
 | Runtime / reality-mediation layer | Salience, interpretation, memory comparison, affect regulation, uncertainty handling | **[METAPHOR]** |
 | Process | Dynamically maintained self, other, relationship, or task state | **[METAPHOR]** |
 | Process isolation | Influence across boundaries without unrestricted overwrite | **[METAPHOR/HYPOTHESIS]** |
@@ -842,6 +1024,11 @@ A healthy internal model is not permanently correct. It is corrigible: it can ab
 | Distributed system | Multiple autonomous people participating in a shared regulatory relationship | **[METAPHOR]** |
 | System recovery | Therapy, learning, repair, compensation, or architectural reorganization | **[METAPHOR/OPEN]** |
 | Access control | Boundaries governing how another person's signals affect the self | **[METAPHOR]** |
+| Kernel firewall | Gating of provenance, responsibility, evidence, and update scope before another person's signal changes the self-system | **[METAPHOR/HYPOTHESIS]** Not avoidance of corrective feedback. |
+| Epistemic firewall | Separation of felt salience and meaning from evidential warrant and truth | **[METAPHOR/HYPOTHESIS]** |
+| Provenance metadata | Represented source, ownership, agency, and temporal origin of content | **[METAPHOR/BRIDGE]** Not literal software fields. |
+| Reality Tolerance Window | Range of disconfirming reality admitted without global defensive reorganization | **[METAPHOR/HYPOTHESIS/OPERATIONAL]** |
+| Network topology | Direction, weight, dependency, and routing among representations | **[METAPHOR/FORMAL BRIDGE]** Not a direct map of neural wiring. |
 | Keystone dependency | A node whose loss disables many dependent representations | **[METAPHOR/HYPOTHESIS]** |
 
 The programming vocabulary is justified only when it forces the project to specify:
@@ -854,6 +1041,269 @@ The programming vocabulary is justified only when it forces the project to speci
 - what happens under load;
 - how recovery is measured;
 - and what observation could falsify the proposed mapping.
+
+### 5.26 Meaning network, representational topology, and world-model
+
+A **meaning network** is the reader-facing term for the connections through which one event activates other meanings. **Representational topology** is the technical term for the organization, direction, weight, and dependency structure of those connections.
+
+The **world-model** is the system's current represented state or output. Topology helps explain why that output arose.
+
+~~~text
+TOPOLOGY
+= how representations are connected and what depends on what
+
+WORLD-MODEL
+= what the organized network currently represents as true, likely, safe, or possible
+~~~
+
+Example:
+
+~~~text
+criticism → shame → worthlessness → abandonment
+~~~
+
+is a topology. “This criticism means the relationship is ending” is one world-model it may produce.
+
+The public-facing sequence should be:
+
+> **inner world → meaning network → internal structure → representational topology**
+
+Do not use *topology* to imply permanence, mathematical proof, or direct neural mapping.
+
+### 5.27 Provenance and representational metadata
+
+**Provenance** is the represented origin of an experience or claim: internal or external, self-generated or other-generated, remembered or perceived, direct or inferred, identified or uncertain.
+
+The model now treats a representation as potentially containing more than content:
+
+~~~text
+Representation {
+    content
+    source
+    ownership
+    agency
+    timestamp
+    salience
+    confidence
+    precision
+    updateability
+}
+~~~
+
+This is a modeling schema, not a claim that the brain stores literal fields. Provenance matters because identical content can have different consequences depending on whether it is represented as my thought, another person's statement, a memory, an inference, or an external event.
+
+### 5.28 Kernel firewall and bounded update access
+
+**[METAPHOR/HYPOTHESIS]** The kernel firewall is the access-control layer that evaluates whether and how another person's signal may update the self-system.
+
+~~~text
+OTHER
+  ↓
+INTERFACE
+  ↓
+KERNEL FIREWALL
+- who is speaking?
+- what is actually being communicated or requested?
+- is this their feeling, my feeling, or both?
+- what responsibility is mine: none, some, or all?
+- which representation, if any, should update?
+  ↓
+HUMAN KERNEL AND USER SPACE
+~~~
+
+Low isolation and weak gating can produce a direct write:
+
+~~~text
+“I am disappointed in you”
+  ↓
+“I am bad”
+~~~
+
+More autonomous processing preserves intermediate distinctions:
+
+~~~text
+“They are disappointed”
+  ↓
+what happened and what evidence exists?
+  ↓
+what belongs to them, to me, and to the interaction?
+  ↓
+update only what the evidence and responsibility warrant
+~~~
+
+The kernel firewall must not be confused with defensiveness. A defensive wall rejects reality to preserve a model; a functional firewall permits accurate, proportionate, local update while preventing unauthorized global overwrite.
+
+### 5.29 Reality Tolerance Window
+
+The **Reality Tolerance Window (RTW) [HYPOTHESIS/OPERATIONAL]** is the range, amount, and type of contradictory, disconfirming, guilt-inducing, or self-implicating reality the system can admit without global world switching, compulsory externalization, defensive reconstruction, or collapse of continuity.
+
+~~~text
+wide RTW
+contradictory evidence
+  ↓
+local and proportionate update
+  ↓
+self, other, relationship, and future remain differentiated
+
+narrow RTW
+small disconfirming signal
+  ↓
+reject / reweight / reinterpret / externalize
+  ↓
+if protection fails: global bad-world activation or collapse
+~~~
+
+RTW is related to but not identical with Internal Regulation Capacity:
+
+- **IRC:** how much activation, ambiguity, and load can be sustained;
+- **RTW:** which reality variations are admitted and allowed to update the model;
+- **Structural Flexibility:** how much the model can reorganize without losing continuity.
+
+A person may have high general cognitive capacity yet a narrow RTW around shame, attachment, status, moral fault, or abandonment.
+
+Candidate operational dimensions include contradiction breadth, maximum tolerable self-implication, update locality, evidence-admission threshold, time to defensive closure, world-switch threshold, and recovery after disconfirmation.
+
+### 5.30 Structural Empathy / Topological Empathy
+
+**Topological Empathy [HYPOTHESIS]** is the canonical technical construct. **Structural Empathy [PROVISIONAL]** is its current candidate reader-facing name:
+
+> **The capacity to model another person's internal meaning network without assuming that it is organized like one's own.**
+
+Projective empathy asks:
+
+> “How would I feel in their situation?”
+
+Topological Empathy asks:
+
+> **“Through what internal structure did this event become this experience for them?”**
+
+The first can work when the relevant architectures are sufficiently similar. The second is necessary when they are not.
+
+Topological Empathy does not mean approval, forgiveness, moral relativism, submission, mind-reading, or absorbing another person's responsibility. It does not establish that the inferred topology is correct. It is a disciplined hypothesis about another mind that remains revisable by evidence.
+
+Canonical separations:
+
+~~~text
+TOPOLOGICAL EMPATHY
+“I can model how your system may organize this.”
+
+PROCESS ISOLATION
+“Your system is not my system.”
+
+INTEGRATION
+“I can keep your reasons, my experience, our conflict,
+and differentiated responsibility active together.”
+
+KERNEL FIREWALL
+“Only warranted information receives permission to update me.”
+~~~
+
+High Topological Empathy with weak process isolation, low self-authority, or a permissive kernel firewall can increase vulnerability: more understanding can generate more explanations for harm without improving boundaries.
+
+The mature conjunction is:
+
+> **Understand as well as possible, distinguish as accurately as possible, and admit into the kernel only what truly belongs there.**
+
+### 5.31 Topological projection errors
+
+The **Topological Projection Fallacy [HYPOTHESIS]** is the assumption that another person's behavior, motives, responsibility processing, and change mechanisms can be understood by running their situation through one's own topology.
+
+The **Empathic Projection Fallacy** is a specific self-sacrifice-prone form:
+
+> **“Because I would update and repair after understanding, the other will also change if I understand or explain enough.”**
+
+This can fail when the same information enters different transition rules:
+
+~~~text
+SYSTEM A
+recognition of harm → guilt → update → repair
+
+SYSTEM B
+recognition of harm → shame threat → externalization → counter-accusation
+~~~
+
+Understanding the cause of behavior does not establish the other's capacity, willingness, or incentive to change it.
+
+The **Topological Universality Illusion [HYPOTHESIS]** is the broader assumption that one's own motive architecture is the human default. Candidate mirror forms are:
+
+- self-sacrifice projection: “People ultimately want to understand, reciprocate, and repair as I do.”
+- other-sacrifice/narcissistic projection: “People ultimately use others as functions, resources, leverage, or status instruments as I do.”
+
+The second linkage is a project-specific narcissism hypothesis, not an established fact about narcissistic people.
+
+Topological Empathy begins when one's own motive architecture is no longer treated as the species default.
+
+### 5.32 Person representation and functional representation
+
+A **person representation** models the other as a continuing subject with independent experience, motives, rights, uncertainty, and capacity for change.
+
+A **functional representation** models what the other currently does for the system: admirer, critic, regulator, rescuer, rival, obstacle, carrier of blame, or source of status.
+
+Functional representations are necessary and universal. The proposed failure mode occurs when the other's regulatory function displaces their personhood under load.
+
+### 5.33 Ontological security
+
+**Ontological security [BRIDGE/HYPOTHESIS]** is the basic experience that I am a continuing, world-distinguishable agent and that reality is stable enough for action and correction.
+
+Candidate components are:
+
+- continuity of self;
+- ownership;
+- agency;
+- self–world boundary;
+- reliable-enough provenance;
+- and sufficient stability of the world.
+
+The term overlaps with several existing traditions and is not a validated Human Kernel scale. It should not be treated as identical with ontological continuity, attachment security, minimal self, or reality testing.
+
+### 5.34 Psychosis and schizophrenia as a cautious extension
+
+**[ESTABLISHED/BRIDGE]** Research traditions on schizophrenia-spectrum conditions include anomalous self-experience or minimal-self disturbance, source-monitoring differences, agency and ownership, and aberrant salience. The evidence is heterogeneous, and auditory hallucinations, delusions, psychosis, and schizophrenia are not single-mechanism phenomena.
+
+**[EXTENSION]** Human Kernel can provisionally organize some of these questions as failures or instability in the infrastructure that estimates:
+
+~~~text
+What is self?
+What is world?
+Who generated this content?
+What belongs to whom?
+What is salient?
+What interpretation is supported?
+How confidently should the model update?
+~~~
+
+One possible sequence is:
+
+~~~text
+anomalous self/world experience or salience
+  ↓
+high uncertainty and urgent meaning search
+  ↓
+new explanatory model
+  ↓
+temporary coherence
+  ↓
+the model may become rigid or delusional
+~~~
+
+The idea that a delusion can sometimes organize previously anomalous, highly salient experience is an adjacent bridge, not a universal account. Human Kernel's exact integration of minimal self, provenance, salience, and ontological security remains a hypothesis.
+
+Do not diagnose psychosis from spiritual belief, grief symbolism, pattern detection, unusual experience, or one mistaken causal interpretation. Clinical significance depends on the full context, conviction, flexibility, distress, impairment, and professional assessment.
+
+### 5.35 Topological Freedom
+
+**Topological Freedom [EXTENSION]** is the philosophical capacity to experience one's own and others' internal structures as models rather than reality itself, to recognize causal and control limits, and to carry one's own responsibility without assuming the rest.
+
+~~~text
+old control logic:
+predict everything → understand everything → prevent all bad outcomes → remain safe
+
+more autonomous logic:
+observe → understand what is possible → recognize limits
+→ carry one's share → release the rest
+~~~
+
+Topological Freedom is not a clinical endpoint, a synonym for enlightenment, or a validated construct. It is the project's current philosophical horizon.
 
 ---
 
@@ -1423,6 +1873,56 @@ The market model predicts, provisionally:
 - immediate distress reduction should mediate reinforcement of the chosen blame route;
 - and global blame allocation should predict lower later model updateability than differentiated responsibility.
 
+### 11.9 Deniable signaling and topological probing
+
+**Deniable signaling [BRIDGE/HYPOTHESIS]** is strategically ambiguous communication whose target can recognize a personal message while the sender retains a plausible neutral interpretation and can avoid ownership of the message.
+
+> **The message is delivered, but ownership of the message is not taken.**
+
+It is not identical with ordinary indirect communication. The distinguishing feature is the functional value of ambiguity:
+
+~~~text
+target: “I know this was directed at me.”
+sender: “I did not mean you; you are imagining it.”
+~~~
+
+In Human Kernel terms, deniable signaling can make provenance deliberately uncertain. The target must resolve both the message and the legitimacy of their own interpretation. This can be especially destabilizing when self-trust is low or another person's epistemic authority is high.
+
+**Topological probing [HYPOTHESIS]** is the use of small, low-cost, sometimes deniable signals to observe a response and infer features of another person's architecture:
+
+~~~text
+probe
+  ↓
+target response
+  ↓
+infer possible:
+- boundary strength
+- blame absorption
+- shame sensitivity
+- approval need
+- conflict tolerance
+- self-trust
+  ↓
+update model of target
+~~~
+
+The social-echolocation metaphor is:
+
+~~~text
+send signal → receive echo → infer topology → choose next action
+~~~
+
+> **Cheap signals can produce expensive information.**
+
+In the Blame–Responsibility Routing Network, repeated probes may reveal routes of least resistance: who apologizes, self-doubts, yields, returns responsibility, maintains a boundary, or leaves.
+
+Distinguish:
+
+- **Topological Empathy:** models another as a subject in order to understand them accurately;
+- **functional topological literacy:** models how another will respond in order to navigate, influence, or control outcomes.
+
+The modeling capacity itself is not specific to narcissism and may support ordinary social learning, negotiation, safety, care, or manipulation. **[HYPOTHESIS]** In some other-sacrifice or narcissistically organized states, deniable probing may be recruited to find blame routes while minimizing the sender's exposure to responsibility. No such motive may be inferred from an ambiguous message alone.
+
 ---
 
 ## 12. Narcissistic organization as an application
@@ -1493,6 +1993,47 @@ Self B continuity ← regulation supplied by A
 The relationship then does more than connect two autonomous systems. It partly replaces missing internal regulation for both. Boundaries, disagreement, and separateness become dangerous because they interrupt regulatory supply.
 
 This is an SRF interpretation of an adjacent model, not established clinical doctrine.
+
+### 12.4 Kernel overload and the narrow Reality Tolerance Window
+
+**[HYPOTHESIS]** Narcissistic fragility may involve not a kernel that is too small, but a kernel overloaded with contingent content that reality should ordinarily be permitted to update:
+
+~~~text
+status / superiority / blamelessness / admiration / control
+  ↓
+granted near-invariant status
+  ↓
+ordinary contradiction becomes a continuity-level threat
+  ↓
+defense pressure rises
+~~~
+
+The resulting Reality Tolerance Window may become narrow around shame, criticism, failure, dependence, ordinariness, or another person's autonomous interpretation.
+
+~~~text
+REALITY
+  ↓
+REJECT
+“This did not happen or is false.”
+
+REWEIGHT
+“This is irrelevant or insignificant.”
+
+REINTERPRET
+“This means something else and does not implicate me.”
+
+if those protections fail
+  ↓
+GOOD-WORLD DESTABILIZATION
+  ↓
+BAD-WORLD ACTIVATION, EXTERNALIZATION, OR COLLAPSE
+~~~
+
+Compact proposition:
+
+> **The more fragile the good world, the narrower the range of reality that can be granted update rights.**
+
+This mechanism is not exclusive to narcissistic organization. A self-sacrifice system can also narrow the window—for example, by excluding evidence that a needed other is unsafe because admitting it threatens attachment, control, or continuity.
 
 ---
 
@@ -1665,6 +2206,30 @@ Self B remains owned by B
 
 The relationship is real and irreducible to either person, but neither party should become the sole condition of the other's right to exist.
 
+### 15.1 Shared Reality
+
+**Shared Reality [BRIDGE/EXTENSION]** names the jointly maintained relational model through which two or more people interpret events, coordinate expectations, and regulate uncertainty.
+
+Healthy shared reality remains corrigible by external evidence and each participant's independent perspective:
+
+~~~text
+Person A model ← reality and dialogue → Person B model
+          ↓
+revisable shared model
+~~~
+
+An unhealthy shared distortion can reverse the relation:
+
+~~~text
+Person A ↔ protected shared model ↔ Person B
+                    ↓
+reality is filtered to preserve the shared model
+~~~
+
+> **In a healthy relationship, two internal worlds can help correct one another through reality. In an unhealthy relationship, they may jointly protect the same distortion.**
+
+Possible applications include shared fantasy, fusion, mutual regulation, scapegoating, ideological certainty, narcissistic–self-sacrifice complementarity, and Dual Mothership. These applications require separate evidence and should not be treated as one phenomenon.
+
 ---
 
 ## 16. Fault tolerance, therapy, and recovery
@@ -1710,6 +2275,12 @@ Possible therapeutic functions include:
 - widening salience beyond threat-confirming signals;
 - testing reconstructions against reality;
 - increasing recovery and return of resolution;
+- widening the Reality Tolerance Window;
+- strengthening epistemic and kernel firewalls without creating emotional isolation;
+- restoring reliable-enough provenance and self-trust;
+- identifying kernel-overloaded beliefs and returning them to user space;
+- distinguishing understanding from approval and responsibility absorption;
+- reducing Topological Projection Fallacy;
 - and creating experiences in which rupture does not require sacrifice of self or other.
 
 The model does not yet establish which of these changes is necessary, sufficient, or irreversible.
@@ -1732,6 +2303,10 @@ The following variables are conceptual proposals:
 - \(M_i\): meaning assigned to signal \(i\)
 - \(H_i\): self-relevance weight assigned to signal or meaning \(i\)
 - \(P_i\): epistemic authority/weight of representation \(i\)
+- \(T_t\): representational topology at time \(t\)
+- \(V_t\): Reality Tolerance Window at time \(t\)
+- \(O_i\): provenance and ownership confidence for content \(i\)
+- \(K_i\): degree to which content \(i\) is treated as kernel-protected rather than user-space updateable
 - \(G_t\): blame–responsibility routing state
 - \(X_t\): external regulation demand
 
@@ -1779,12 +2354,16 @@ A high \(A_i\) may dominate limited capacity even when evidential support is low
 
 ### 17.4 Branch selection
 
-For a given event, candidate strategies may be compared by expected short-term cost:
+Branch selection is conditional. First determine whether integration is currently feasible:
 
 ~~~text
-cost(self-sacrifice)
-cost(other-sacrifice)
-cost(integration)
+if integration is feasible:
+    integrate; do not enter the defensive bifurcation
+
+if integration is not feasible:
+    compare only:
+        cost(self-sacrifice)
+        cost(other-sacrifice)
 ~~~
 
 Costs depend on:
@@ -1800,6 +2379,8 @@ Costs depend on:
 
 The lowest short-term cost can become the highest long-term cost.
 
+No formalization may place integration as a third branch downstream of a node whose entry condition is “integration is not possible.”
+
 ### 17.5 Blame–Responsibility Routing Graph
 
 Represent agents as nodes. Directed edges represent possible routes for:
@@ -1814,6 +2395,36 @@ Represent agents as nodes. Directed edges represent possible routes for:
 Each routing event updates the probability of future routes.
 
 The desired emergent test is whether self-sacrifice and other-sacrifice attractors appear from local rules without being explicitly programmed as outcomes.
+
+### 17.6 Reality admission and kernel-lock pressure
+
+For incoming evidence \(e_i\), distinguish detection from admission:
+
+~~~text
+detected(e_i) = 1
+does not imply
+admitted_for_update(e_i) = 1
+~~~
+
+Provisional admission pressure may depend on:
+
+- evidential quality;
+- provenance confidence;
+- contradiction with the active model;
+- structural consequences of update;
+- current load and capacity;
+- kernel-lock value \(K_i\);
+- and the current Reality Tolerance Window \(V_t\).
+
+The theory predicts that increasing \(K_i\) and predicted structural consequences should increase rejection, reweighting, reinterpretation, or global defensive response to disconfirming evidence.
+
+### 17.7 Topological inference error
+
+Let \(T_{self}\) be the actor's topology and \(\hat{T}_{other}\) the actor's inferred model of another person's topology.
+
+Projective error can be represented provisionally as overreliance on \(T_{self}\) when estimating \(\hat{T}_{other}\). Topological Empathy should improve prediction only if the inferred model is constrained by observations from the other person rather than narrative complexity alone.
+
+This prevents a circular measure in which “I generated a sophisticated explanation” is mistaken for “I understood the other accurately.”
 
 ---
 
@@ -1835,6 +2446,13 @@ If these variables do not covary beyond existing measures of affect intensity, c
 6. Measure how rapidly and locally the model updates.
 7. Repeat under attachment threat, cognitive load, sleep loss, or an ethically approved pharmacological manipulation.
 
+Additional task families:
+
+8. Present matched people whose identical behavior arises from different stated motives or transition rules; measure whether participants revise their person model rather than project their own motive architecture.
+9. Present ambiguous but deniable interpersonal signals; measure provenance confidence, self-doubt, blame absorption, and update after clarification.
+10. Vary whether a contradiction concerns performance, status, morality, attachment, or continuity; estimate domain-specific Reality Tolerance Windows.
+11. Ask participants to separate emotional meaning from causal confidence and independent evidence, testing the proposed epistemic firewall.
+
 ### 18.3 Candidate measures
 
 - **Representational breadth:** number of plausible concurrent interpretations.
@@ -1851,6 +2469,14 @@ If these variables do not covary beyond existing measures of affect intensity, c
 - **Comparison-set retention:** encoding and recall of non-matching events alongside salient matches.
 - **Externalization latency:** time before regulation is recruited from the environment.
 - **Responsibility differentiation:** proportional allocation without global badness.
+- **Reality-admission breadth:** range of disconfirming content permitted to update a model without global switch or defensive exclusion.
+- **Update locality:** number of representational domains altered by one correction.
+- **Kernel-lock index:** degree to which performance, status, approval, relationship, or moral content is treated as non-negotiable continuity content.
+- **Provenance calibration:** accuracy and confidence in assigning source, ownership, and inferential status.
+- **Topological projection error:** mismatch between another person's reported or behaviorally supported transition structure and the structure attributed by the observer.
+- **Topological prediction gain:** improvement in predicting another person's state transitions beyond projection, trait stereotypes, and ordinary perspective-taking.
+- **Deniable-signal sensitivity:** ability to hold personal relevance, sender intent, and uncertainty separately without automatic self-blame or certainty.
+- **Firewall proportionality:** degree to which self-model update tracks evidence and actual responsibility rather than another person's affect intensity or authority.
 
 ### 18.4 Blame–Responsibility Market study
 
@@ -1874,14 +2500,22 @@ The model is weakened if:
 - branch direction is not related to relational response distribution or reinforcement;
 - salience can be fully reduced to attention or affect intensity without improving explanation;
 - global blame routing does not predict later regulation strategy;
+- Reality Tolerance Window adds no predictive value beyond distress tolerance, openness, cognitive flexibility, or authoritarianism;
+- Topological Empathy adds no predictive value beyond cognitive empathy, perspective-taking, mentalization, or theory of mind;
+- kernel-lock measures cannot be distinguished from ordinary value commitment or self-esteem;
+- deniable signaling and topological probing do not predict routing or boundary learning beyond general social cognition;
 - recovery of resolution is unrelated to autonomy or resilience;
 - or proposed variables cannot be operationalized reliably across methods.
 
 ---
 
-## 19. Accepted book structure
+## 19. Book architecture
 
-### Chapter 1 — Boot Sequence: How the Human Mind Starts
+### 19.1 Accepted ten-chapter spine
+
+The following ten-chapter structure was explicitly accepted earlier and remains the canonical compact spine until the author accepts a replacement.
+
+#### Chapter 1 — Boot Sequence: How the Human Mind Starts
 
 Topics:
 
@@ -1894,7 +2528,7 @@ Topics:
 - control illusion;
 - and the first expectations from which later models develop.
 
-### Chapter 2 — Representation Engine: Building a Model of Reality
+#### Chapter 2 — Representation Engine: Building a Model of Reality
 
 Topics:
 
@@ -1906,7 +2540,7 @@ Topics:
 - present interpretation versus remembered reconstruction;
 - and why the system responds to modeled reality.
 
-### Chapter 3 — Kernel Formation: Building the Self
+#### Chapter 3 — Kernel Formation: Building the Self
 
 Topics:
 
@@ -1918,7 +2552,7 @@ Topics:
 - keystone representations;
 - and how dependency direction changes the self.
 
-### Chapter 4 — Process Isolation: Becoming Separate
+#### Chapter 4 — Process Isolation: Becoming Separate
 
 Topics:
 
@@ -1929,7 +2563,7 @@ Topics:
 - boundaries and permeability;
 - and why separation is required for mature connection.
 
-### Chapter 5 — State Machines: Living in Changing Worlds
+#### Chapter 5 — State Machines: Living in Changing Worlds
 
 Topics:
 
@@ -1943,7 +2577,7 @@ Topics:
 - integration as the alternative that prevents or later exits the bifurcation;
 - and the Blame–Responsibility Market.
 
-### Chapter 6 — Resource Management: The Cost of Complexity
+#### Chapter 6 — Resource Management: The Cost of Complexity
 
 Topics:
 
@@ -1955,7 +2589,7 @@ Topics:
 - representational breadth and entropy;
 - and stress-test logic.
 
-### Chapter 7 — Compression Algorithms: When Reality Becomes Too Expensive
+#### Chapter 7 — Compression Algorithms: When Reality Becomes Too Expensive
 
 Topics:
 
@@ -1970,7 +2604,7 @@ Topics:
 
 The word *algorithm* belongs to the software metaphor. It does not imply that the mind consciously executes a compression routine.
 
-### Chapter 8 — Fault Tolerance: Remaining Yourself Under Load
+#### Chapter 8 — Fault Tolerance: Remaining Yourself Under Load
 
 Topics:
 
@@ -1982,7 +2616,7 @@ Topics:
 - resilience;
 - and the Dynamic Stability Profile.
 
-### Chapter 9 — Distributed Systems: Love Without Losing the Kernel
+#### Chapter 9 — Distributed Systems: Love Without Losing the Kernel
 
 Topics:
 
@@ -1994,7 +2628,7 @@ Topics:
 - religion and community as shared protocols where relevant;
 - and dependence without ownership.
 
-### Chapter 10 — System Recovery: Can Architecture Change?
+#### Chapter 10 — System Recovery: Can Architecture Change?
 
 Topics:
 
@@ -2006,6 +2640,85 @@ Topics:
 - Resolution Resistance and the J-curve;
 - measurement, simulation, falsification;
 - and the limits of present knowledge.
+
+### 19.2 Expanded twenty-one-chapter candidate
+
+**[PROVISIONAL EDITORIAL STRUCTURE]** Recent theory development produced the following expanded architecture. It better gives salience, integration, Topological Empathy, signaling, Shared Reality, and ontological security their own space. It has not yet been explicitly accepted as the new canonical table of contents.
+
+#### Part I — The Mind Builds a World
+
+1. **Boot Sequence — How the Human Mind Starts**  
+   Biology, dependence, external regulation, prediction, and first self/other representations.
+
+2. **Representation Engine — We Do Not Live Directly in Reality**  
+   Signals, internal models, prediction errors, provenance, confidence, and updateability.
+
+3. **Salience — What Is Allowed Into the Foreground?**  
+   Attention weighting, meaning assignment, self-relevance, apophenia, evidence, and epistemic firewall.
+
+4. **Resolution — How Precisely Can the Mind See?**  
+   Representational detail, simultaneity, interpretation breadth, and asymmetric self–other modeling.
+
+#### Part II — The Kernel Emerges
+
+5. **Kernel Formation — What Is the Self?**  
+   Protected invariants, metadata, user space, ownership, agency, provenance, and minimal-kernel principle.
+
+6. **Process Isolation — I Am Not You**  
+   Self–other differentiation, interfaces, bounded permeability, access control, and kernel firewall.
+
+7. **Integration — The AND Operator**  
+   Simultaneous contradiction, localized fault, responsibility, and wholeness. Topological Empathy remains distinct.
+
+#### Part III — When Integration Cannot Carry the Load
+
+8. **Bifurcation — Which Representation Is Sacrificed?**  
+   The two defensive branches only: self-sacrifice and other-sacrifice; branch learning and attractors.
+
+9. **State Machines — Good World and Bad World**  
+   Coupled self/other/relationship states, splitting, idealization, devaluation, and world switching.
+
+10. **Resource Management — Why Complexity Is Expensive**  
+    Capacity, ambiguity cost, stress, sleep, substances, and load-dependent resolution.
+
+11. **Compression Algorithms — When Reality Becomes Too Expensive**  
+    Simultaneity failure, compression as outcome, reconstruction, confabulation, and self-blame search attractors.
+
+#### Part IV — Interpersonal Systems
+
+12. **Topological Empathy — Understanding Another World**  
+    Structural Empathy, meaning networks, projection errors, universality illusion, and understanding without responsibility absorption.
+
+13. **Responsibility Routing — Where Guilt and Blame Go**  
+    Blame–Responsibility Market, formal routing network, scapegoating, responsibility distribution, and repair.
+
+14. **Signaling — Social Echolocation**  
+    Deniable signaling, cheap probes, topological probing, boundary testing, and functional topological literacy.
+
+15. **Distributed Systems — Love Without Losing the Kernel**  
+    Attachment, co-regulation, intimacy, process isolation, and mutual dependence without root access.
+
+16. **Shared Reality — When Two Topologies Build One World**  
+    Corrigible shared models, shared fantasy, fusion, shared distortion, and Dual Mothership.
+
+#### Part V — The Kernel and Larger Realities
+
+17. **Ontological Security — When Self and World Hold Together**  
+    Continuity, ownership, agency, self–world boundary, provenance, minimal self, and the cautious psychosis extension.
+
+18. **Shared Kernels — Religion, Ideology, and Common Reality**  
+    High-centrality representations, mortality, rituals, morality, collective salience, and scapegoating.
+
+#### Part VI — Autonomy
+
+19. **Fault Tolerance — Can I Be Wrong and Still Remain?**  
+    Guilt and shame tolerance, local error, repair, forgiveness, reality tolerance, and model update.
+
+20. **System Recovery — Can Topology Change?**  
+    Therapy, corrective experience, plasticity, kernel-to-user-space relocation, compensation, DRIH, and DIH.
+
+21. **Topological Freedom — When Understanding Releases Control**  
+    Seeing topology as a model, carrying one's share, releasing false guilt, limits of control, and the philosophical horizon.
 
 ---
 
@@ -2025,6 +2738,9 @@ The project draws from research and theory concerning:
 - state-dependent social cognition;
 - salience and attentional prioritization;
 - apophenia, referential thinking, and ideas of reference as recognized descriptive concepts;
+- perspective-taking, cognitive empathy, mentalization, and theory-of-mind research;
+- source monitoring and reality monitoring;
+- anomalous self-experience and minimal-self research in schizophrenia-spectrum conditions;
 - guilt, shame, responsibility, and repair;
 - personality traits and their heritable and environmental influences;
 - and learning through reinforcement.
@@ -2051,6 +2767,9 @@ Translation does not prove equivalence.
 The following are not established laws:
 
 - human kernel as a protected continuity architecture;
+- human kernel as a minimal protected meta-layer of invariants, metadata, and permissions;
+- the minimal-kernel principle and kernel/user-space distinction;
+- kernel overload through contingent content granted invariant status;
 - simultaneity as a central integration mechanism;
 - structural-consequence preservation;
 - conditions-of-possibility topology;
@@ -2063,6 +2782,18 @@ The following are not established laws:
 - salience as a pre-reconstructive defensive mediation layer;
 - the strict signal → salience → meaning assignment → self-relevance architecture;
 - prior-driven salience training and its proposed role in sign-confirmation loops;
+- epistemic firewall and kernel firewall;
+- provenance as a kernel function;
+- Reality Tolerance Window;
+- meaning network and representational topology as the project's specific causal architecture;
+- Structural Empathy / Topological Empathy as a construct distinct from existing empathy, mentalization, and perspective-taking measures;
+- Topological Projection Fallacy, Empathic Projection Fallacy, and Topological Universality Illusion;
+- the self-blame search-algorithm interpretation of some overthinking;
+- deniable signaling as a provenance-and-responsibility operation;
+- topological probing and functional topological literacy;
+- Shared Reality as the project's multi-person extension;
+- the Human Kernel synthesis of ontological security, minimal self, provenance, salience, and psychosis;
+- Topological Freedom;
 - increased self-relevance weighting in narcissistically organized states;
 - DRIH and DIH;
 - and the proposed formal variables and attractors.
@@ -2080,6 +2811,24 @@ Do not claim:
 - or early development completely determines adult architecture.
 
 The model is developmental, probabilistic, relational, state-dependent, and open to later change.
+
+### 20.5 Psychiatric-extension rule
+
+Psychosis and schizophrenia must remain cautious extensions rather than proof of the kernel metaphor. Do not claim:
+
+- that psychosis is a “kernel failure”;
+- that all hallucinations are source-monitoring errors;
+- that all delusions are coherence-restoration strategies;
+- that minimal-self research has established the Human Kernel;
+- that schizophrenia is one homogeneous architecture;
+- or that unusual spiritual, grief-related, or symbolic experiences establish psychopathology.
+
+Whenever this extension is used, separate:
+
+1. the observed or researched phenomenon;
+2. an adjacent explanatory model;
+3. the Human Kernel translation;
+4. and the still-unvalidated mechanism.
 
 ---
 
@@ -2099,6 +2848,10 @@ These sources anchor adjacent, established, or bridge-level constructs. They do 
 - [Criterion and discriminant validity of the Referential Thinking scale](https://pubmed.ncbi.nlm.nih.gov/20230153/)
 - [Apophenia as a disposition to false-positive pattern detection](https://pubmed.ncbi.nlm.nih.gov/32212749/)
 - [Systematic review of continuing bonds following bereavement](https://pubmed.ncbi.nlm.nih.gov/37336784/)
+- [Systematic review and meta-analysis of self-disorders in the schizophrenia spectrum](https://pmc.ncbi.nlm.nih.gov/articles/PMC8782935/)
+- [Integrative review of minimal and narrative self in the schizophrenia spectrum](https://pmc.ncbi.nlm.nih.gov/articles/PMC12909293/)
+- [Systematic review and meta-analysis of source monitoring in psychosis](https://pubmed.ncbi.nlm.nih.gov/35124869/)
+- [Systematic review of body-ownership paradigms in the schizophrenia spectrum](https://pubmed.ncbi.nlm.nih.gov/36424451/)
 
 Any future scientific publication should replace this map with a systematic, claim-level literature review.
 
@@ -2127,6 +2880,26 @@ Any future scientific publication should replace this map with a systematic, cla
 19. Can therapy change topology, or mainly improve routing around vulnerable nodes?
 20. When is an external regulator supportive, and when does it become a condition of existence?
 21. Does the theory explain phenomena more precisely than attachment, object relations, predictive processing, schema theory, mentalization, or reinforcement learning alone?
+22. Which candidate kernel functions are true prerequisites for flexible selfhood, and which are merely useful higher-level capacities?
+23. Can the minimal-kernel principle be operationalized without defining health circularly?
+24. Can kernel-protected content be distinguished empirically from high commitment, strong values, identity centrality, or ordinary self-esteem?
+25. Is the Reality Tolerance Window separable from distress tolerance, openness, cognitive flexibility, uncertainty tolerance, and authoritarianism?
+26. Does RTW vary independently across shame, attachment, status, moral fault, bodily threat, and existential uncertainty?
+27. Can the epistemic firewall be measured separately from intelligence, skepticism, metacognition, and cognitive reflection?
+28. Does a kernel firewall predict proportionate responsibility allocation beyond boundaries, assertiveness, locus of control, and self-trust?
+29. Is Topological Empathy empirically distinct from cognitive empathy, perspective-taking, mentalization, theory of mind, attributional complexity, and empathic accuracy?
+30. Does Topological Empathy improve prediction of another person's transitions rather than merely increase explanation complexity?
+31. Under what conditions does high Topological Empathy combined with low process isolation increase vulnerability to exploitation or responsibility absorption?
+32. Can Topological Projection Fallacy be observed symmetrically in self-sacrifice and other-sacrifice states?
+33. Does Topological Universality Illusion predict misunderstanding across motive architectures, and can corrective feedback reduce it?
+34. Can deniable signals be manipulated experimentally without assuming sender intent, and do they selectively impair provenance confidence or increase self-blame?
+35. Does topological probing learn real response structure, stereotypes, or only short-term compliance?
+36. When does functional topological literacy support safety and negotiation, and when does it become manipulation?
+37. How do two independently biased topologies form, correct, or protect a Shared Reality?
+38. Are provenance, ownership, agency, and self–world separation independent dimensions of ontological security?
+39. Does the Human Kernel psychosis extension add testable value beyond minimal-self, source-monitoring, aberrant-salience, and predictive-processing accounts?
+40. Is Topological Freedom a useful philosophical synthesis, or does it risk importing an unfalsifiable endpoint into the empirical model?
+41. Should the accepted ten-chapter spine be replaced by the provisional twenty-one-chapter architecture?
 
 ---
 
@@ -2156,6 +2929,19 @@ When using this context:
 20. If proposing a measure, specify what observation could falsify the construct.
 21. Ask whether a new term creates predictive value or only renames an existing concept.
 22. Prefer the strongest version that remains scientifically honest.
+23. Keep canonical theory terms in English. Treat the public vocabulary ladder as provisional. In accessible book prose, introduce *representational topology* through *inner world*, *meaning network*, and *internal structure*; introduce *Topological Empathy* as *Structural Empathy* only when this improves comprehension.
+24. Define the kernel as a minimal protected meta-layer, not as personality, self-image, narrative identity, soul, or a literal brain module.
+25. Treat “The healthier the system, the smaller the kernel” as a Human Kernel hypothesis. Explain that “smaller” means less contingent content receives invariant status.
+26. Keep kernel content and psychological user space distinct. Treat status, performance, approval, relationships, and narratives as ordinarily updateable unless discussing the kernel-overload hypothesis.
+27. Distinguish topology from world-model: topology is the connection and dependency structure; world-model is a current output of that structure.
+28. Keep Topological Empathy, process isolation, integration, and kernel firewall separate. Understanding another person does not itself create a boundary, integrate contradiction, or allocate responsibility correctly.
+29. Never equate understanding with approval, forgiveness, change, staying in a relationship, or accepting another person's responsibility.
+30. Treat Topological Projection Fallacy and Topological Universality Illusion as hypotheses. Do not assume that a detailed story about another mind is accurate merely because it is psychologically sophisticated.
+31. Do not infer manipulative intent, narcissism, or topological probing from one ambiguous or indirect message. Deniable signaling requires functional ambiguity; motive remains an empirical question.
+32. Treat functional topological literacy as morally neutral capacity whose use can support care, negotiation, safety, influence, or control.
+33. Treat Reality Tolerance Window as distinct from general capacity, distress tolerance, and flexibility until discriminant validity is shown.
+34. In psychosis or schizophrenia discussion, separate established adjacent findings from Human Kernel translation, preserve heterogeneity, and avoid diagnosing from isolated unusual experiences.
+35. Treat the twenty-one-chapter table of contents as provisional until the author explicitly replaces the accepted ten-chapter spine.
 
 ---
 
@@ -2163,7 +2949,9 @@ When using this context:
 
 Use this when a smaller model cannot ingest the full document:
 
-> Human Kernel is Jani Halmetoja's developing Theory of Psychological Autonomy. It asks how an initially caregiver-regulated child becomes capable of maintaining a continuous sense of self while remaining genuinely connected to others. The kernel is a metaphor for minimal psychological continuity: “I exist; I remain me through changing states; another person's state can affect me without defining my existence.” The model proposes that autonomy depends on differentiation, representational simultaneity, integration, and robust topology. Simultaneity is the proposed mechanism; psychological wholeness is the continuity experience it helps make possible. Representations are defended in proportion to the structural consequences of their loss, especially when they function as conditions of possibility for other representations. Under load, differentiation or simultaneity may fail, producing low-resolution compression, world switching, external regulation, or defensive reconstruction.
+> Human Kernel is Jani Halmetoja's developing Theory of Psychological Autonomy. It asks how an initially caregiver-regulated child becomes capable of maintaining a continuous sense of self while remaining genuinely connected to others. The kernel is a **[METAPHOR/HYPOTHESIS]** for a minimal protected meta-layer of invariants, metadata, and permissions: continuity, ownership, agency, self–world and self–other separation, provenance, access control, epistemic rules, and update permissions. Beliefs, roles, self-esteem states, status, relationships, performance, and narratives should ordinarily remain in updateable psychological user space. The minimal-kernel principle states: **“The healthier the system, the smaller the kernel.”** This means less contingent content is treated as existentially invariant, not that the self is weaker.
+>
+> The model proposes that autonomy depends on differentiation, representational simultaneity, integration, process isolation, corrigible topology, and bounded access. Simultaneity is a proposed mechanism; psychological wholeness is the continuity experience it helps produce. Representational topology is how meanings and dependencies connect; a world-model is a current output of that topology. People do not react to events alone but to what events connect to in their meaning networks. Representations are defended in proportion to the structural consequences of their loss, especially when they function as conditions of possibility for other representations. Under load, differentiation or simultaneity may fail, producing low-resolution compression, world switching, external regulation, or defensive reconstruction. Compression is primarily an observable outcome in the current model, not automatically the deepest mechanism.
 >
 > The core developmental contradiction is that a needed caregiver is both loving and frustrating, while the child both loves and feels anger. If the contradiction can be integrated, harmful action remains local and guilt can support responsibility, repair, and update. If integration is not currently possible, a defensive bifurcation has two branches: self-sacrifice preserves the caregiver by globalizing badness into the self, while other-sacrifice preserves the self by globalizing badness into the other. The two branches are state-dependent attractors, not diagnoses or permanent types. Integration is not a third branch under the condition that defines the bifurcation.
 >
@@ -2171,15 +2959,48 @@ Use this when a smaller model cannot ingest the full document:
 >
 > A newer control hypothesis proposes that a dualistic good/bad caregiver model can give a child the illusion that correct behavior makes the good caregiver appear and wrong behavior activates the bad caregiver. Self-blame preserves control over an otherwise unpredictable attachment system. This can develop toward pleasing, perfectionism, hypervigilance, control, or—on one branch—narcissistic externalization.
 >
-> The current architecture separates signal existence, salience, meaning assignment, self-relevance, evidence, confidence, and truth. Salience determines what receives psychological importance; it does not itself specify meaning, personal reference, or truth. Repeated numbers, license-plate letter patterns, or symbolic animal appearances can become subjectively meaningful when high salience is followed by meaning assignment and self-relevance. A prior such as “the world sends me signs” may train attention to notice and remember matching coincidences while ordinary non-matches fade into the background. Salience, apophenia, and referential thinking are established concepts, but this exact layered architecture and any claim of increased self-relevance weighting in narcissistic organization are **[BRIDGE]/[HYPOTHESIS]**. The pattern is not specific to narcissism and may occur in superstition, spirituality, grief, stress, sleep deprivation, substance use, mania, psychosis, and other contexts. Threat-biased salience may distort current reality; memory reconstruction may later reorganize remembered reality, forming a reinforcing loop. Substances and relationships can modify the runtime in which reality is weighted without changing external reality. Controlled load manipulation may test whether reduced capacity lowers simultaneity and resolution, but such studies require rigorous ethics.
+> The current architecture separates signal existence, salience, activation through a meaning network, meaning assignment, self-relevance, evidence, confidence, and truth. Salience determines what receives psychological importance; it does not itself specify meaning, personal reference, or truth. The **epistemic firewall** asks what independent evidence supports a salient interpretation. A **kernel firewall** asks which part of another person's signal and responsibility, if any, should update the self. A **Reality Tolerance Window** is the proposed range of contradictory or self-implicating reality that can be admitted without global defensive reorganization. In the narcissism application, a narrow window may protect a fragile good world by rejecting, reweighting, or reinterpreting disconfirming reality; the mechanism is not specific to narcissism.
+>
+> **Topological Empathy [HYPOTHESIS]** means modeling another person's meaning network without assuming it resembles one's own. **Structural Empathy [PROVISIONAL]** is the candidate reader-facing name. The construct is distinct from process isolation, integration, and kernel firewall. Understanding does not equal approval, change, forgiveness, staying, or absorbing responsibility. The **Topological Projection Fallacy** applies one's own architecture to another; the **Empathic Projection Fallacy** assumes that because I would update after understanding, the other will too if I understand enough. The **Topological Universality Illusion** treats one's own motive architecture as the human default. These constructs require discriminant validation against existing empathy, perspective-taking, mentalization, and theory-of-mind measures.
+>
+> **Deniable signaling** delivers a personally recognizable but strategically ambiguous message while preserving a neutral escape route. **Topological probing [HYPOTHESIS]** uses small, cheap, sometimes deniable signals to observe responses and infer boundaries, guilt absorption, shame sensitivity, approval need, and conflict tolerance. In the Blame–Responsibility Routing Network, such probes may map routes of least resistance. This is not specific to narcissism, and manipulative intent must never be inferred from one ambiguous message. Topological Empathy models another as a subject; functional topological literacy may instead be used for navigation or control.
+>
+> Repeated numbers, license-plate letter patterns, or symbolic animal appearances can become subjectively meaningful when high salience is followed by association, meaning assignment, and self-relevance. A prior such as “the world sends me signs” may train attention to notice and remember matching coincidences while ordinary non-matches fade into the background. Salience, apophenia, referential thinking, source monitoring, and minimal-self disturbance are established or researched adjacent concepts, but Human Kernel's layered synthesis is **[BRIDGE]/[HYPOTHESIS]**. Psychosis and schizophrenia are heterogeneous; the theory must not reduce them to “kernel failure” or diagnose them from isolated unusual experiences.
+>
+> **Topological Freedom [EXTENSION]** is the philosophical horizon: seeing one's own and others' inner structures as models rather than reality itself, understanding what is possible, carrying one's actual responsibility, recognizing limits of control, and releasing the rest.
 >
 > The theory integrates established research traditions, psychodynamic bridges, and original hypotheses. It is not yet a validated clinical theory, diagnostic tool, anatomical model, or deterministic account of parenting. All project-specific mechanisms must remain falsifiable.
 
 ---
 
-## 25. Revision 0.3.3 — integrated additions and salience-layer clarification
+## 25. Revision 0.4.0 — protected kernel, topology, empathy, and reality admission
 
 This version incorporates:
+
+- the protected-meta-layer definition of Human Kernel: invariants, metadata, provenance, access control, epistemic rules, and update permissions;
+- the distinction between minimal kernel and psychological user space;
+- the hypothesis that health permits a smaller kernel because less contingent content must be locked as invariant;
+- kernel overload as contingent status, approval, performance, moral, or relational content granted kernel privileges;
+- representational topology as the dependency structure that routes signals and helps produce a current world-model;
+- the reader-facing ladder inner world → meaning network → internal structure → representational topology;
+- Structural Empathy as the provisional public-facing name for Topological Empathy;
+- the strict separation of Topological Empathy, process isolation, integration, and kernel firewall;
+- Topological Projection Fallacy, its Empathic Projection Fallacy subtype, and Topological Universality Illusion;
+- person representation versus functional representation;
+- epistemic firewall, kernel firewall, and Reality Tolerance Window;
+- the narrow-RTW hypothesis in narcissistic and self-sacrifice organizations;
+- deniable signaling as strategically ambiguous, provenance-uncertain communication;
+- topological probing, social echolocation, and functional topological literacy;
+- Shared Reality and jointly protected distortion as a multi-person extension;
+- ontological security, provenance, minimal-self research, and psychosis as a highly cautious bridge/extension;
+- overthinking as a possibly biased search process that terminates at a familiar self-blame attractor;
+- Topological Freedom as the philosophical, non-clinical horizon;
+- the accepted ten-chapter book spine plus a clearly labeled provisional twenty-one-chapter candidate;
+- new operational variables, tasks, measures, falsification criteria, open questions, and AI safeguards for these constructs;
+- updated research anchors for minimal-self and source-monitoring literature;
+- and English-only canonical terminology with reader-facing plain-language introductions;
+
+It retains and consolidates the following version 0.3.3 additions:
 
 - the separation of signal existence, salience, meaning assignment, self-relevance, and truth value;
 - repeated numbers, license-plate patterns, and symbolic animal appearances as examples of subjectively meaningful sign construction;

@@ -6,6 +6,67 @@ The Human Kernel Theory Toolkit v0.1 is a TypeScript web application built with 
 
 The simulator is a research tool. It computes outcomes from topology and parameters without hardcoding theoretical predictions. CT emerges from the simulation. Comparison results are observations, not confirmations.
 
+## Framework Positioning
+
+The toolkit sits within a three-layer hierarchy:
+
+```text
+HUMAN TOPOLOGY ATLAS   (primary frame: a map of the mind's possible organizations)
+        |
+HUMAN KERNEL           (the protected meta-architecture underlying all topologies)
+        |
+STRUCTURAL REGULATION FRAMEWORK / SRF  (load, simultaneity, compression, recovery dynamics)
+```
+
+The shortest distinction: the Human Kernel asks how the human mind works; the Human Topology Atlas asks how many different ways it can be organized. The core thesis is that people do not react to events but to what an event connects to in their internal meaning network.
+
+### The Structural Lock: Six Canonical Parts (Atlas v1.1)
+
+As of Atlas v1.1, Human Topology is canonically defined by six parts. These six parts are the primary analysis frame, superseding the twenty-dimension list as the top-level organizing principle. The twenty dimensions still exist but are now measured under the six parts.
+
+The canonical formula:
+
+```text
+Human Topology =
+  representational vocabulary              (what can be represented and distinguished)
++ connection structure                     (how representations link, weight, and activate each other)
++ access permissions                       (who/what can read, write, trigger, update system levels)
++ generative priors                        (what the system predicts or generates when data is incomplete)
++ state transitions                        (how structure changes under load, intimacy, threat, intoxication, recovery)
++ environmental stabilization contract     (what others and the environment must provide for the structure to stay stable)
+```
+
+The canonical order is intentional:
+
+```text
+What can be represented?
+  -> How do representations connect?
+  -> What access permissions do they have?
+  -> What does the system generate for missing data?
+  -> How does structure change under load?
+  -> What must the environment do to keep it stable?
+```
+
+The six parts are the primary frame. Human Kernel and SRF are the layers beneath, not additional parts. The Human Kernel is NOT a seventh part: it is the protected meta-architecture beneath all six. SRF is NOT a seventh part: it is the load-dynamics layer that sharpens simultaneity, compression, state transitions, and recovery. The six parts are analysis levels, not six independent mind modules. The environmental stabilization contract makes topology genuinely relational and ecological: topology describes not only internal structure but the environmental contract on which the structure's stability depends. Dependence and co-regulation are not themselves pathological; what matters is reciprocity, flexibility, reality cost, and who bears the regulatory load.
+
+#### Where v0.1 Sits Within the Six Parts
+
+The v0.1 engine primarily models the **connection-structure** part: nodes, edges, centrality, and cascade capture how representations link, which nodes are central, and how a local signal spreads through the network. The other five parts map to later versions.
+
+| Canonical part (Structural Lock) | Toolkit version implementing or extending it |
+|---|---|
+| Connection structure | v0.1 (nodes, edges, centrality, cascade) |
+| Representational vocabulary | v0.2 (salience, authority, provenance, resolution as independent node properties) |
+| Generative priors | v0.2 (prediction error, salience-driven priors, five-stage signal processing) |
+| Access permissions | v0.2 (kernel-lock, provenance) and v0.6 (kernel overload, firewall, update permissions) |
+| State transitions | v0.4 (recovery, DSP timeline, hysteresis, runtime modification) |
+| Environmental stabilization contract | v0.5 (developmental model of how the contract forms; caregiver ACC/UBA/RRC; blame-responsibility routing) |
+| All six parts (full atlas entries) | v0.7+ (AtlasEntry mandatory core is the six canonical parts) |
+
+The v0.2 salience/authority/provenance work extends the representational-vocabulary part (what can be represented and with what weight) together with the generative-priors part (what the system predicts on incomplete evidence). The v0.2 kernel-lock/access work and the v0.6 kernel-overload work extend the access-permissions part. The v0.4 recovery/DSP work extends the state-transitions part. The v0.5 developmental model extends the environmental-stabilization-contract part by showing how that contract forms through repeated interaction. The v0.7+ full atlas entries carry all six parts as the mandatory core.
+
+The Human Kernel is a protected meta-architecture, never personality, self-image, soul, or a brain module. A topology is not a personality type. v0.1's distributed and hub-dependent presets are two atlas entries: two organizational forms among many possible ones. The v0.1 engine shows what a given topology does under load; it does not classify people. Compression remains a consequence of simultaneity failure, not a mechanism.
+
 ## Architecture
 
 ### Technology Stack
@@ -87,7 +148,13 @@ SRF v0.3 identifies seven distinct properties of any representation. These must 
 
 The v0.1 simulator implements resolution, confidence, source, updateability, and structural centrality (descendant + path). This is sufficient for topology-dependent vulnerability simulation. Salience and authority/weight are independent variables planned for v0.2, where they enable modeling of self-other epistemic asymmetry and salience-memory reconstruction feedback loops.
 
+SRF v0.4.0 extends the representational framework beyond the original seven variables (resolution, weight/authority, salience, evidence, confidence, truth, updateability) with two further per-representation properties: **kernel-lock** (K_i, the degree to which a representation is treated as invariant rather than user-space updateable) and **provenance** (O_i, the represented source, ownership, agency, and temporal origin of the content). Both are HYPOTHESIS-level and planned for v0.2+, where kernel-lock in particular enables testing the kernel-overload hypothesis in simulation. The kernel itself is a protected meta-layer of invariants, metadata, provenance, access control, epistemic rules, and update permissions, not a personality, self-image, soul, or brain module.
+
 SRF v0.3.3 additionally distinguishes a five-stage signal processing architecture: (1) signal detection, (2) salience, (3) meaning assignment, (4) self-relevance weighting, (5) epistemic evaluation. Truth value depends on stage 5, not on felt importance (stage 2), assigned meaning (stage 3), or personal relevance (stage 4). This layered model is relevant to v0.2+ where salience and self-relevance become independent simulation variables.
+
+### Two Complementary Layers: Node-Level and Network-Level
+
+The framework operates at two complementary layers. The seven/nine-variable representational framework (resolution, authority/weight, salience, evidence, confidence, truth, updateability, plus the v0.2+ additions kernel-lock and provenance) sits at the **node level**, describing properties of a single representation. The twenty topology dimensions from the Human Topology Atlas (self-other differentiation, self/other-weighting, ownership, agency, provenance resolution, representational resolution, holding capacity, IRC, person-function balance, salience calibration, self-relevance weighting, updateability, reality tolerance window, responsibility routing, access control, integration/AND-capacity, state-switching tendency, rigidity/plasticity, recovery profile, ecological fit) sit at the **network/profile level**, describing the organization of the topology as a whole. These are complementary layers, not competing schemes: node properties describe individual representations, while topology dimensions characterize an atlas entry. The network-level profile is planned for v0.7+ (see Atlas Entry Catalog below).
 
 ### Core Types (`src/types.ts`)
 
@@ -341,6 +408,8 @@ Total resolution never increases under monotonically increasing load.
 - `predictionError` field, `updateRepresentation(nodeId, newInfo)`, updateability-driven revision
 - `salience` field (0-1): independent of evidence and truth. High salience does not imply truth.
 - `authority` field (0-1): independent of resolution. A low-resolution representation can have high authority.
+- `kernelLock` field (0-1): degree to which a representation is treated as kernel-protected (invariant) rather than user-space updateable. High kernel-lock nodes resist update. HYPOTHESIS. Groundwork for the v0.6 kernel-overload demonstration.
+- `provenance` field: represented source, ownership, agency, and temporal origin of the content, plus confidence in that origin (O_i). HYPOTHESIS as a kernel function. Identical content can carry different consequences depending on whether it is represented as one's own thought, another person's statement, a memory, an inference, or an external event.
 - Self-other epistemic asymmetry: configurable weighting between self-model and other-model authority. Self-sacrifice pattern (low self-authority); other-sacrifice pattern (low other-authority under load).
 - Salience-memory reconstruction feedback loop: biased salience -> biased encoding/interpretation -> selective or distorted remembering -> defensively coherent narrative -> stronger prior -> same salience distribution reinforced
 - Self-maintaining loop modeling: rigid prior -> threat-biased salience -> ambiguous event interpreted as insult/abandonment/opposition -> defensive action -> relationship conflict -> new data confirms prior
@@ -553,3 +622,224 @@ The simulation MUST:
 | Feedback loops | Not modeled | Self-maintaining cycles can form |
 
 Together they answer complementary questions: v0.5 explains how a topology forms; v0.1 shows what that topology does under acute pressure
+
+### v0.6: Kernel Overload and Reality Tolerance
+
+A demonstration built on the v0.2 `kernelLock` and `provenance` node fields. Where v0.1 shows how topology determines vulnerability, v0.6 shows how the kernel/user-space boundary determines vulnerability, holding topology fixed.
+
+#### Node extension
+
+Each node carries `kernelLock` (0-1):
+- 0 means fully user-space updateable content (beliefs, roles, status, relationships)
+- 1 means content treated as a kernel-level invariant (continuity, "I exist")
+
+Kernel overload is modeled by raising `kernelLock` on contingent content that would ordinarily live in user space. Examples the demonstration can preset: an other-sacrifice profile that locks "I must remain blameless" or "I must remain superior"; a self-sacrifice profile that locks "if another is upset, I am responsible". These are HYPOTHESIS-level configurations, not diagnoses.
+
+#### Engine behavior
+
+The engine treats high-kernel-lock nodes as resisting resolution loss under moderate load. When load finally forces compression on a high-kernel-lock node, the defensive pressure it releases is larger, producing a wider cascade. Provisional model:
+
+```text
+defensePressure(node) = kernelLock(node) * structuralConsequence(node)
+```
+
+- Below the node's effective threshold: high kernel-lock nodes lose resolution more slowly than equivalent user-space nodes.
+- At and above the threshold: the accumulated defensive pressure produces a larger cascade than a user-space node of the same structural consequence would.
+
+Compression here remains a consequence of simultaneity failure, not a mechanism. Kernel-lock changes when and how forcefully that consequence appears; it does not make compression a primitive operation.
+
+#### Reality Tolerance Window as an emergent metric
+
+`getRealityToleranceWindow()` reports how much contradictory or self-implicating load the network admits before global world switching or defensive reconstruction begins. RTW is emergent, not an input. The demonstration shows that raising kernel-lock on central nodes narrows the observed RTW, providing a simulation-level test of the narrow-RTW hypothesis for narcissistic and self-sacrifice organizations.
+
+Candidate operational dimensions to expose: contradiction breadth admitted, maximum tolerable self-implication, update locality, evidence-admission threshold, time to defensive closure, world-switch threshold, and recovery after disconfirmation.
+
+#### Research framing and anti-circularity
+
+- The kernel-overload hypothesis ("the healthier the system, the smaller the kernel") is under test, where "smaller" means less contingent content is locked as invariant, not a weaker self.
+- The simulator must remain capable of showing that kernel-lock produces no meaningful difference for a given topology (a possible null result).
+- No node's route or outcome is assigned from a diagnostic label. Kernel-lock is a configurable variable whose consequences are computed.
+
+### v0.7+: Atlas Entry Catalog and Topological Empathy
+
+Where v0.1 provides two atlas entries (distributed and hub-dependent) as raw topologies primarily exercising the connection-structure part, v0.7+ expands them into a full catalog of atlas entries, each carrying descriptive metadata whose mandatory core is the six canonical parts of the Structural Lock alongside its representational network. This connects to the v0.5 developmental model rather than the v0.1 static engine: where v0.5 has multiple agents interacting, v0.7 explores one agent modeling another agent's topology.
+
+#### Atlas-entry data model
+
+An atlas entry pairs a generated representational network with descriptive metadata. As of Atlas v1.1, the mandatory core of the entry format is the six canonical parts of the Structural Lock. The twenty topology dimensions are measured under these six parts (attached via `topologyDimensions` as a complementary detail record). The strengths, blind spots, ecological niche, recovery, compatibility/conflict, projection errors, testable predictions, and ethical cautions are complementary sections.
+
+```typescript
+export type EpistemicStatus = 'ESTABLISHED' | 'BRIDGE' | 'HYPOTHESIS' | 'METAPHOR' | 'OPEN';
+
+/** The six canonical parts of the Structural Lock (Atlas v1.1).
+    Each part may be a descriptive string or a structured sub-object. */
+
+export interface RepresentationalVocabulary {
+  /** Available representation types, distinctions, combination rules. What can
+      be represented vs not, what is distinguished vs compressed into one
+      category, whether uncertainty/ambivalence/chance/other-autonomy has a
+      representation, resolution and simultaneity, under-modeling blind spots
+      and over-modeling synthetic representations. */
+  description: string;
+  availableTypes?: string[];
+  hasUncertaintyRepresentation?: boolean;
+  hasOtherAutonomyRepresentation?: boolean;
+  underModelingBlindSpots?: string[];
+  overModelingSyntheticRepresentations?: string[];
+}
+
+export interface ConnectionStructure {
+  /** How representations link and with what weight. Meaning networks, hubs,
+      dependencies, attractors, responsibility routes, how a local signal can
+      spread to identity/world-model level. Keystone/hub representations,
+      self/other weighting, person-function balance, salience, self-relevance,
+      attractors. This is the part the v0.1 engine primarily models. */
+  description: string;
+  keystoneRepresentations?: string[];
+  selfOtherWeighting?: number;
+  personFunctionBalance?: number;
+  attractors?: string[];
+}
+
+export interface AccessPermissions {
+  /** Which representations and external actors may read, write, update, or
+      bypass deep system levels. Kernel adjacency, process isolation, firewall,
+      update permissions, when user-space content got kernel privileges without
+      justification. */
+  description: string;
+  kernelAdjacentNodes?: string[];
+  firewallIntegrity?: number;
+  unjustifiedKernelPrivileges?: string[];
+}
+
+export interface GenerativePriors {
+  /** What causes, agents, purposes, futures, and missing representations the
+      system produces on incomplete evidence. Prediction before observation,
+      how fast gaps are filled, topology-congruent explanations under kernel
+      threat, whether ignorance can be held as a representation, how easily a
+      hypothesis reifies into perceived fact, updateability. */
+  description: string;
+  gapFillingSpeed?: number;
+  canHoldIgnorance?: boolean;
+  reificationTendency?: number;
+  updateability?: number;
+}
+
+export interface StateTransitions {
+  /** How structure switches under load, intimacy, threat, intoxication, loss,
+      recovery. Baseline vs load states, when load exceeds simultaneity or
+      Reality Tolerance Window, local update vs whole-world switch, what gets
+      compressed/isolated/externalized/sacrificed, which attractor a
+      bifurcation leads to, recovery speed/cost/target state. */
+  description: string;
+  baselineState?: string;
+  loadStates?: string[];
+  worldSwitchThreshold?: number;
+  recoverySpeed?: number;
+  recoveryCost?: number;
+}
+
+export interface EnvironmentalStabilizationContract {
+  /** The often-implicit structure by which others and the environment must
+      produce certain signals, roles, or accommodation for the Kernel to stay
+      stable. What is sought, signal frequency/intensity, provider specificity,
+      what happens if the other refuses/leaves/sees differently, co-regulation
+      vs outsourced kernel function, who bears the regulatory/relational/reality
+      cost. Makes topology genuinely relational and ecological. Dependence and
+      co-regulation are not themselves pathological; what matters is
+      reciprocity, flexibility, reality cost, and who bears the regulatory load. */
+  description: string;
+  whatIsSought?: string[];
+  signalFrequency?: number;
+  providerSpecificity?: number;
+  consequencesIfRefused?: string;
+  regulatoryCostBearer?: string;
+}
+
+export interface AtlasEntry {
+  id: string;
+  workingName: string;
+  epistemicStatus: EpistemicStatus;   // never ESTABLISHED for Atlas-specific entries
+  level: 'trait profile' | 'state topology' | 'developmental hypothesis' | 'relational dynamic';
+  doesNotMean: string[];              // diagnoses and generalizations to avoid
+
+  // --- Mandatory core: the six canonical parts (Structural Lock, Atlas v1.1) ---
+  representationalVocabulary: RepresentationalVocabulary;
+  connectionStructure: ConnectionStructure;
+  accessPermissions: AccessPermissions;
+  generativePriors: GenerativePriors;
+  stateTransitions: StateTransitions;
+  environmentalStabilizationContract: EnvironmentalStabilizationContract;
+
+  // --- Twenty dimensions, measured under the six parts (complementary detail) ---
+  topologyDimensions: TopologyDimensionProfile;
+
+  // --- Complementary sections ---
+  strengths: string[];
+  blindSpots: string[];
+  ecologicalNiche: string;
+  recovery: string;
+  compatibilityConflict: string;     // which topologies complement, which form exploitation/fusion/guilt routes
+  projectionErrors: string[];        // the universal assumptions this topology projects onto others
+  testablePredictions: string[];
+  ethicalCautions: string[];
+}
+```
+
+The `internalLogic`, `kernelProfile`, and `stressRegression` fields from earlier drafts are now absorbed into the six canonical parts: internal logic and kernel profile map onto access permissions and generative priors, and stress regression maps onto state transitions.
+
+#### Topology dimension profile
+
+The twenty topology dimensions are measured under the six canonical parts and attached at the network/profile level as a record of continuous (0-1) or categorical values. They are a complementary detail record, not the top-level structure (the six canonical parts are the mandatory core):
+
+```typescript
+export interface TopologyDimensionProfile {
+  selfOtherDifferentiation: number;
+  selfWeighting: number;
+  otherWeighting: number;
+  ownership: number;
+  agency: number;
+  provenanceResolution: number;
+  representationalResolution: number;
+  holdingCapacity: number;
+  irc: number;
+  personFunctionBalance: number;      // person-representation vs function-representation
+  salienceCalibration: number;
+  selfRelevanceWeighting: number;
+  updateability: number;
+  realityToleranceWindow: number;
+  responsibilityRouting: number;      // absorb <-> externalize
+  accessControl: number;
+  integrationAndCapacity: number;
+  stateSwitchingTendency: number;
+  rigidityPlasticity: number;
+  recoveryProfile: number;
+  ecologicalFit: string;              // environment where benefits exceed costs
+}
+```
+
+This profile is network-level and complementary to the node-level seven/nine-variable framework described in Data Models. The twenty dimensions distribute across the six canonical parts: for example, representational resolution and provenance resolution sit under representational vocabulary; self/other-weighting, person-function balance, salience calibration, self-relevance weighting, and responsibility routing sit under connection structure; access control sits under access permissions; updateability sits under generative priors; state-switching tendency, rigidity/plasticity, recovery profile, reality tolerance window, holding capacity, and IRC sit under state transitions; and ecological fit sits under the environmental stabilization contract.
+
+#### Cross-Topology Blind-Spot Matrix component
+
+A grid where selecting a perceiving-topology row and a target-topology column shows the typical projection error in that direction, sourced from an editable matrix data structure. The matrix is bidirectional: it forces the two-directional question of what A cannot easily see about B and what B cannot easily see about A. It does not resolve who is right. Compatibility between two topologies does not imply health; two topologies may fit because they reinforce each other's defenses or form a stable guilt-routing loop.
+
+#### Preset atlas entries
+
+Five preset entries drawn from the master context blind-spot matrix: self-sacrifice, other-sacrifice, high-autonomy, fusion-seeking, threat-vigilant. Each generates a representational network AND carries the descriptive entry metadata whose mandatory core is the six canonical parts. Each is a HYPOTHESIS/BRIDGE profile, not a diagnosis. Self-sacrifice is not a synonym for goodness or empathy; other-sacrifice is not a synonym for narcissism.
+
+#### Topological empathy and anti-circularity
+
+Where v0.5 has multiple agents interacting, v0.7 explores one agent modeling another agent's topology.
+
+- **Topological Empathy** (canonical term; **Structural Empathy** for readers): an agent constructs an inferred model of another agent's meaning network without assuming it matches its own. HYPOTHESIS.
+- **Anti-circularity requirement**: a sophisticated inferred model is not evidence of accurate understanding. The inferred topology must be constrained by observed responses from the other agent, not by narrative complexity. A prediction-gain metric (does the inferred model predict the other agent's state transitions better than projecting one's own topology?) guards against mistaking explanation for accuracy.
+- **Topological Projection Fallacy**: modeling the other by running their situation through one's own topology. The Empathic Projection Fallacy ("because I would update and repair, the other will too if I understand enough") is a subtype. The Topological Universality Illusion treats one's own motive architecture as the human default.
+- **Epistemic firewall and kernel firewall** as agent-level checks: the epistemic firewall separates felt salience and meaning from evidential warrant; the kernel firewall permits proportionate local update while preventing unauthorized global overwrite. Neither is defensiveness.
+- **Topological Freedom** as the philosophical horizon (EXTENSION): experiencing one's own and others' internal structures as models rather than reality itself. Not a clinical endpoint or validated construct.
+
+#### Anti-circularity note for atlas entries
+
+Atlas entries are described organizational forms with strengths, blind spots, ecological niche, and stress regression, never fixed personality types. The toolkit never tells a user "you are X." Describing a topology is not endorsing it. Understanding another topology does not equal approval, prediction, change, or responsibility absorption. All Atlas-specific constructs are HYPOTHESIS, BRIDGE, METAPHOR, or OPEN, never ESTABLISHED. Topological change and healing remain OPEN (DIH).
+
+All v0.7+ constructs are HYPOTHESIS or EXTENSION level. Topological change and recovery remain OPEN (DIH).
