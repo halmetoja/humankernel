@@ -2,10 +2,12 @@
 
 ## Master Context
 
-**Projektin tekijä:** Jani Halmetoja  
-**Versio:** 1.1 — Structural Lock  
-**Päiväys:** 31.8.2026  
+**Projektin tekijä:** Jani Halmetoja
+**Versio:** 1.4 — Four-Character Configuration Lock
+**Päiväys:** 8.9.2026
 **Kieli:** suomi; vakiintuneet tai tarkoitukselliset projektitermit voidaan säilyttää englanniksi
+
+> **Topologinen kartta ihmismetsään**
 
 ---
 
@@ -36,7 +38,7 @@ Human Topology Atlasin kanoninen analyysi- ja kirjarunko on:
 
 > **Human Topology = representatiivinen sanasto + yhteysrakenne + käyttöoikeudet + generatiiviset ennakko-oletukset + tilasiirtymät + ympäristön stabilointisopimus**
 
-Tämä kuusiosainen jäsennys on ensisijainen suhteessa aiempiin ulottuvuuslistoihin ja kandidaatillisiin topologiatyyppeihin. Se ei väitä, että ihmismieli koostuisi kuudesta itsenäisestä moduulista. Se määrittää kuusi toisiinsa kytkeytyvää tarkastelutasoa, joiden kautta jokainen Atlas-entry, tapausanalyysi, tutkimushypoteesi ja kirjan pääluku jäsennetään.
+Tämä kuusiosainen jäsennys on ensisijainen suhteessa aiempiin ulottuvuuslistoihin ja alustaviin topologialuetteloihin. Se ei väitä, että ihmismieli koostuisi kuudesta itsenäisestä moduulista. Se määrittää kuusi toisiinsa kytkeytyvää tarkastelutasoa, joiden kautta jokainen Atlas-entry, tapausanalyysi, tutkimushypoteesi ja kirjan pääluku jäsennetään.
 
 `Human Kernel` ei ole kaavan seitsemäs rinnakkainen osa. Se on kuuden osan alla oleva suojattu meta-arkkitehtuuri, joka määrittää jatkuvuuden, omistajuuden, toimijuuden, self/world- ja self/other-erottelun, provenienssin, käyttöoikeuksien perustan ja minimaaliset invariantit. `SRF` ei myöskään ole seitsemäs osa, vaan kuormitusdynamiikan kehys, joka tarkentaa erityisesti simultaanisuutta, kompressiota, tilasiirtymiä ja palautumista.
 
@@ -60,6 +62,12 @@ Mitä ympäristön täytyy tehdä, jotta rakenne pysyy vakaana?
 
 `Human Topology Atlas` nostaa näiden yläpuolelle uuden pääkysymyksen: millaisia suhteellisen vakaita mutta tilariippuvaisia rakenteita syntyy, kun ihmiset painottavat eri tavoin itseä, toisia, vastuuta, uhkaa, yhteyttä, autonomiaa, totuutta ja säätelyä?
 
+Versio 1.4 lukitsee ensimmäisen yleisökirjan neljän fiktiivisen ankkurihahmon täydelliset taustakonfiguraatiot sekä niiden suhteen reader-facing outline 2.1:een. Hahmoentryt operationalisoivat rakennetta, mutta ne eivät lisää ontologiaan neljää ihmistyyppiä tai empiirisesti vahvistettua profiilia.
+
+Versiossa 1.3 käyttöön otetut yleisökieliset tarkennukset ovat tähtitaivaan kartoitus kantavana metaforana sekä `Keskipisteen suhteellisuus`. Näitä kokoaa luvun ja päämetaforan nimi **Kopernikaaninen käänne ihmismetsässä**.
+
+Tekniset tarkennukset ovat metaforarekisterien erottaminen, topologian monitasoisuus, eksplisiittinen epistemologinen ketju ja epäsymmetrinen kartanpäivitys. `Topologinen geosentrisyys` sijoitetaan ontologiassa nyt eksplisiittisesti centring-ulottuvuuksien keskeisyysasetukseksi eikä attraktoriksi, tilaksi, strategiaksi tai kokonaiseksi profiiliksi. Nämä tarkennukset eivät korvaa kuusiosaista `Canonical Structural Lock` -rakennetta.
+
 Tämä dokumentti korvaa aiemmat master contextit silloin, kun niiden käsitteellinen hierarkia tai kirjan positiointi on ristiriidassa tämän version kanssa. Aiemmat edelleen käyttökelpoiset Human Kernel- ja SRF-ideat on sisällytetty tähän uudessa järjestyksessä.
 
 ### Projektin tämänhetkinen tieteellinen asema
@@ -67,6 +75,23 @@ Tämä dokumentti korvaa aiemmat master contextit silloin, kun niiden käsitteel
 Projekti on käsitteellinen, järjestelmäteoreettinen synteesi ja tutkimusohjelman luonnos. Se ei ole empiirisesti vahvistettu uusi yleisteoria ihmismielestä, diagnostinen järjestelmä eikä kliinisen arvioinnin korvike. Osa käsitteistä nojaa vakiintuneeseen psykologiaan, osa yhdistää olemassa olevia tutkimusperinteitä uudella tavalla ja osa on avoimesti uusia hypoteeseja tai metaforia.
 
 Projektin uskottavuus riippuu siitä, että nämä tasot eivät sekoitu.
+
+### Canonical Core — vähimmäiskonteksti
+
+Jos koko dokumenttia ei voida antaa toiselle tekoälymallille, seuraava on projektin pienin riittävä ydin. Laajennukset, tapausesimerkit ja metaforat eivät saa kumota näitä kohtia.
+
+1. **Pääkehys:** Human Topology Atlas kartoittaa mielen erilaisia järjestäytymismuotoja. Human Kernel kuvaa niiden alla olevaa suojattua meta-arkkitehtuuria ja SRF kuormitusdynamiikkaa.
+2. **Structural Lock:** Human Topology = representatiivinen sanasto + yhteysrakenne + käyttöoikeudet + generatiiviset ennakko-oletukset + tilasiirtymät + ympäristön stabilointisopimus.
+3. **Episteminen ketju:** todellisuus → signaalit → sisäinen topologia → koettu todellisuus. Kokemus voi olla aito ilman että sen ulkoista maailmaa koskeva tulkinta on täydellinen tai tarkka.
+4. **Merkitys:** merkitys ei sijaitse signaalissa vaan syntyy siitä, mihin signaali sisäisessä topologiassa kytkeytyy.
+5. **Kartta ja maasto:** usea kartta parantaa todellisuuskalibraatiota vain, jos maasto ja evidenssi voivat korjata jokaista karttaa.
+6. **Topologinen empatia:** toisen rakennetta mallinnetaan olettamatta sitä oman rakenteen kopioksi. Tämä ei ole sama asia kuin integraatio, process isolation, rajat tai hyväksyminen.
+7. **Keskipisteen suhteellisuus:** minä olen oman kokemuksellisen koordinaatistoni origo, mutta en sosiaalisen järjestelmän absoluuttinen origo. Sama pätee toiseen.
+8. **Ontologiakuri:** ulottuvuus, attraktori, tila, strategia, kuuden osan konfiguraatio ja kandidaattiprofiili ovat eri lajisia käsitteitä. Keskeisyysasetus on kahden toisistaan riippumattoman cross-map centring -ulottuvuuden (`SELF → OTHER` ja `OTHER → SELF`) arvorakenne, ei erillinen päätaso. Käsitteitä ei saa esittää yhtenä tyyppilistana.
+9. **Episteminen kuri:** käytä tunnisteita `ESTABLISHED / BRIDGE / HYPOTHESIS / METAPHOR / OPEN`. Topologisen geosentrisyyden soveltaminen narsistiseen organisaatioon, Self-/Other-Sacrifice-attractorit ja niiden kehitysselitykset ovat hypoteeseja.
+10. **Eettinen ydin:** ymmärtäminen ilman alistumista, rajat ilman dehumanisointia ja vastuu ilman väärää syyllisyyttä.
+
+Tähtitaivas ja kartografia ovat yleisökirjan ensisijainen kuvakieli. Ohjelmistojärjestelmät ovat teknisen analyysin kieli. Guilt market, kaikuluotaus ja extended phenotype ovat paikallisia apumetaforia, eivät Canonical Coren osia.
 
 ---
 
@@ -106,17 +131,43 @@ Tavoite ei ole lukita ihmisiä tyyppeihin. Topologia on yhtä aikaa:
 
 Projektin eettinen tarkoitus on lisätä kykyä nähdä toisen sisäinen logiikka projisoimatta omaa logiikkaa häneen — ja samalla säilyttää omat rajat, todellisuudentaju ja vastuun tarkka jakautuminen.
 
+Projektin julkinen punainen lanka on nimeämisen vapauttava tehtävä:
+
+> **Human Topology Atlas antaa nimiä rakenteille, jotka ihmiset ovat ehkä nähneet koko elämänsä mutta joita he eivät ole osanneet sanoittaa.**
+
+Tavoiteltu lukijakokemus on:
+
+> *“Tuohan minä olen nähnyt koko elämäni, mutta en osannut sanoa sitä.”*
+
+Nimeäminen ei muuta hypoteesia faktaksi eikä ihmistä diagnoosiksi. Se muuttaa näkymättömän prosessin tarkasteltavaksi:
+
+> **Kun ilmiö saa nimen, siitä tulee näkyvä. Kun se tulee näkyväksi, sitä ei tarvitse enää vain elää.**
+
+Tämän vuoksi projektin keskeinen suomalainen tunnuslause on:
+
+> **Topologinen kartta ihmismetsään.**
+
 ---
 
 ## 3. Ydinteesi
 
-### 3.1 Mieli ei reagoi tapahtumaan sellaisenaan
+### 3.1 Todellisuus, signaalit, topologia ja koettu todellisuus
 
-Mieli ei kohtaa todellisuutta suoraan. Se vastaanottaa signaaleja, painottaa niitä, liittää ne aiempiin representaatioihin, antaa niille merkityksen, arvioi niiden henkilökohtaisen relevanssin ja muodostaa toimintaennusteen.
+Projektin metodologinen lähtökohta on, että ulkoinen todellisuus ei tyhjene yksittäisen havaitsijan kokemukseen. Mieli ei kuitenkaan kohtaa tätä todellisuutta suoraan tai näkökulmattomasti. Se vastaanottaa rajallisia signaaleja ja rakentaa niistä sisäisen topologiansa kautta koetun todellisuuden.
 
 ```text
 TODELLISUUS
     ↓
+signaalit / havainnot
+    ↓
+SISÄINEN TOPOLOGIA
+    ↓
+koettu todellisuus
+```
+
+Sisäisen topologian sisällä ketju voidaan tarkentaa:
+
+```text
 signaali
     ↓
 salienssi
@@ -132,9 +183,11 @@ representaatio ja ennuste
 toiminta
 ```
 
-Ydinlause:
+Kaksi toisiaan täydentävää ydinlausetta ovat:
 
 > **Ihmiset eivät reagoi tapahtumiin. He reagoivat siihen, mihin tapahtuma heidän sisäisessä merkitysverkossaan kytkeytyy.**
+
+> **Merkitys ei sijaitse signaalissa. Merkitys syntyy siitä, mihin signaali sisäisessä topologiassa kytkeytyy.**
 
 ### 3.2 Sama tapahtuma voi kulkea eri verkoissa eri reittiä
 
@@ -166,9 +219,13 @@ lyhyt vastaus
 
 Todellisuussignaali on sama. Sen saama yhteysrakenne, paino ja seuraus ovat erilaisia.
 
-### 3.3 Topologia ei ole todellisuus
+### 3.3 Topologia ei ole todellisuus: kartta–maasto-erottelu
 
 Sisäinen malli voi olla hyödyllinen, tarkka, vanhentunut, puolustava, kontekstisidonnainen tai väärin kalibroitu. Kokemuksen aitous ei yksin ratkaise tulkinnan totuusarvoa.
+
+> **Subjektiivinen kokemus voi olla täysin aito kokemuksena ilman että sen tulkinta on täydellinen tai tarkka kuva ulkoisesta todellisuudesta.**
+
+Esimerkiksi kokemus “minua halveksitaan” voi olla fenomenologisesti todellinen. Väite “tuo ihminen halveksii minua” on kuitenkin ulkoista maailmaa koskeva hypoteesi, jonka evidenssiä, vaihtoehtoisia selityksiä ja totuusarvoa voidaan tutkia. Kokemuksen validointi ei vaadi sen jokaisen kausaalisen tulkinnan vahvistamista.
 
 Projektin filosofinen perusliike on:
 
@@ -179,6 +236,43 @@ Projektin filosofinen perusliike on:
 ```
 
 Tämä metatason etäisyys mahdollistaa oppimisen, rajat, vastuun ja topologisen vapauden.
+
+Atlas ei siksi sitoudu naiiviin realismiin eikä “kaikki tulkinnat ovat yhtä tosia” -relativismiin. Käytännöllinen episteminen kanta on:
+
+1. oletamme havaitsijoista riippumattoman todellisuuden;
+2. pääsemme siihen vain rajallisten signaalien, mittausten ja mallien kautta;
+3. vertaamme karttoja toisiinsa ja maastosta saatavaan evidenssiin;
+4. pidämme parempana karttaa, joka ennustaa, erottaa lähteet, kestää korjaavaa näyttöä ja päivittyy sen perusteella.
+
+Usea kartta voi lähestyä maastoa paremmin kuin yksi vain, jos maasto saa korjata niitä. Pelkkä näkökulmien yhdistäminen ei automaattisesti lisää totuutta.
+
+### 3.4 Tähtitaivaan kartoitus — Human Topology Atlasin kantava metafora
+
+Tähtitaivas tekee näkyväksi eron signaalien, yhteyksien ja merkityksen välillä.
+
+```text
+tähdet / havaittavat pisteet       ≈ signaalit ja tapahtumat
+niiden välille piirretyt viivat    ≈ assosiaatiot ja selityssuhteet
+tähtikuvio                         ≈ koettu merkityskokonaisuus
+tähtikartta                        ≈ sisäinen tai yhteisesti rakennettu malli
+todellinen avaruus                 ≈ kartasta riippumaton maasto
+```
+
+Tähdet voivat olla todellisia, vaikka havaitsijan niiden välille piirtämä tähtikuvio ei olisi taivaassa sellaisenaan. Samoin tapahtumat, sanat, ilmeet ja teot voivat olla todellisia, vaikka niiden välille rakennettu kausaalinen tai henkilökohtainen yhteys olisi havaitsijan topologian tuottama.
+
+Metaforaa ei saa viedä liian pitkälle. Maailmassa on myös todellisia suhteita: syitä, riippuvuuksia, valtasuhteita, sopimuksia, biologisia sidoksia ja mitattavia yhteyksiä. Atlas ei väitä kaikkien viivojen olevan mielikuvituksen tuotetta. Se erottaa:
+
+```text
+MAAILMASSA OLEVA SUHDE
+≠
+HAVAINNON POHJALTA PIIRRETTY SUHDE
+```
+
+Kartta voi tavoittaa maaston rakenteen paremmin tai huonommin, mutta kartta ei ole maasto. Sisäinen topologia ratkaisee, mitkä pisteet yhdistetään, millä painolla ja millä varmuudella. Juuri tästä muodostuu koettu maailma.
+
+> **Emme voi astua oman mielemme ulkopuolelle katsomaan todellisuutta sellaisenaan. Mutta voimme oppia näkemään, mitkä viivat tähtien välille olemme piirtäneet itse.**
+
+Tähtitaivasmetafora on `METAPHOR`; kartta–maasto-erottelu ja mallien evidenssiperusteinen päivitettävyys ovat projektin epistemologista kurinalaisuutta, eivät metaforasta johdettu empiirinen todiste.
 
 ---
 
@@ -201,6 +295,25 @@ Kaikki merkittävät väitteet tulee tarvittaessa merkitä yhdellä seuraavista 
 - Yksittäinen elämäntarina voi synnyttää hypoteesin, mutta ei vahvistaa yleistä teoriaa.
 - Kliinistä termiä ei käytetä henkilön selityksenä ilman asianmukaista arviointia.
 - Projektin omaperäisyys ei riipu siitä, että jokainen osa olisi uusi. Mahdollinen uutuus on mekanistisessa synteesissä, rakenteiden välisissä yhteyksissä ja testattavissa ennusteissa.
+
+### Metaforirekisterit ja niiden käyttörajat
+
+Projektissa on kolme eri kuvakielen rekisteriä. Niillä on eri yleisö ja tehtävä, eikä niitä pidä ketjuttaa yhdeksi kuvaksi.
+
+| Rekisteri | Ensisijainen käyttö | Esimerkkejä | Raja |
+|---|---|---|---|
+| **Yleisökielinen päärekisteri** | Yleisökirjan kerronta, johdannot ja visualisoinnit | kartta, maasto, tähtitaivas, tähtikuviot, paikalliset keskukset | Tämä on reader-facing-teoksen kantava kuvakieli. |
+| **Tekninen analyysirekisteri** | Master context, tutkimusmalli ja erilliset teoriakehykset | Human Kernel, firewall, runtime, process isolation, access control, state machine, distributed system, digital twin | Käytä täsmällisen mekanistisen erottelun välineenä, mieluiten teoriaosioissa tai erillisissä teknisissä laatikoissa. |
+| **Paikalliset analogiat ja apukäsitteet** | Yhden rajatun dynamiikan avaaminen | guilt market, kaikuluotaus, niche construction -sovellus, extended phenotype -analogia | Yksi analogia tai apukäsite saa tehdä yhden rajatun työn. Sitä ei kuljeteta koko kirjan läpi eikä yhdistetä samassa selityksessä toiseen rekisteriin. |
+
+Sitovat toimitussäännöt:
+
+1. **Yksi kappale, yksi aktiivinen metaforarekisteri.** Älä kuvaa samassa kappaleessa esimerkiksi tähtien liikettä, Kernel-läheistä sisältöä ja palomuurin päivitysoikeuksia.
+2. Projektitermi voidaan mainita toisen rekisterin yhteydessä ristiinviittauksena, mutta sen omaa kuvastoa ei aktivoida samassa kappaleessa. “Human Kernel” nimenä on mahdollinen; “root-oikeudet tähtikarttaan” ei ole.
+3. Jokaisen mekanismin on oltava ilmaistavissa myös ilman metaforaa. Jos kuvakielen poistaminen poistaa väitteen sisällön, käsitteellinen määrittely ei ole vielä riittävä.
+4. Yleisökirjassa tähtitaivas ja kartografia kantavat perspektiivin, merkitysyhteyksien ja keskipisteen suhteellisuuden. Ohjelmistokieli siirretään tarvittaessa erilliseen tekniseen laatikkoon.
+5. Master context saa käyttää ohjelmistotermejä teknisinä projektikäsitteinä, mutta myös siinä reader-facing-sitaatit ja tähtitaivasjaksot pidetään omassa rekisterissään.
+6. Metaforien määrää ei pidetä teoreettisen rikkauden mittana. Uusi metafora hyväksytään vain, jos se erottaa mekanismin, jota nykyinen sanasto ei erottele yhtä selvästi.
 
 ---
 
@@ -397,6 +510,38 @@ Yleisökielessä käytetään asteittaista hierarkiaa:
 
 `Maailmamalli` on topologian tämänhetkinen tuotos: se, millaiselta itse, muut ja todellisuus juuri nyt näyttävät. Topologia kertoo, miksi juuri sellainen maailmamalli syntyy.
 
+### 7.4 Monitasoinen topologia
+
+Topologia toimii usealla toisiinsa sisältyvällä mittakaavalla. Tasoja ei pidä sekoittaa yhdeksi kausaaliketjuksi, jossa vaikutus kulkisi vain alhaalta ylöspäin.
+
+```text
+REPRESENTAATIOTASON VERKKOTOPOLOGIA
+solmut, yhteydet, painot, hubit ja reitit
+        ↕
+KOKEMUKSELLINEN / MERKITYSTOPOLOGIA
+miten signaalit muuttuvat koetuksi uhaksi, turvaksi, häpeäksi tai yhteydeksi
+        ↕
+YKSILÖTOPOLOGIA
+henkilölle suhteellisen tyypillinen tapa järjestää self, toinen, vastuu ja toimijuus
+        ↕
+SUHDETOPOLOGIA
+kahden tai useamman yksilötopologian välille muodostuvat toistuvat silmukat,
+roolit, käyttöoikeudet, vastuun reitit ja yhteissäätely
+        ↕
+SOSIAALINEN / KULTTUURINEN TOPOLOGIA
+perheen, työyhteisön, instituution tai kulttuurin normit, kategoriat,
+valtarakenteet, kertomukset ja jaetut reitityssäännöt
+```
+
+Jokainen taso sekä rajoittaa että muokkaa muita. Representaatioiden yhteydet vaikuttavat kokemukseen; kokemus vahvistaa tai heikentää yhteyksiä. Yksilön toistuva toiminta rakentaa suhdetopologiaa; suhde puolestaan muuttaa yksilön salienssia, prioreita, käyttöoikeuksia ja tilasiirtymiä. Sosiaalinen rakenne tarjoaa kategoriat, sanktiot ja mahdollisuudet, joiden sisällä suhteet muodostuvat; ihmiset ja suhteet taas ylläpitävät tai muuttavat kulttuurista rakennetta.
+
+Tämä kaksisuuntaisuus estää kaksi reduktiota:
+
+- psykologista ilmiötä ei palauteta vain yksilön sisäiseksi ominaisuudeksi;
+- yksilön toimijuutta ei liuoteta kokonaan suhteeseen tai kulttuuriin.
+
+`Niche construction` on tämän monitasoisuuden erityistapaus: topologia ei vain reagoi annettuun ympäristöön vaan voi käyttäytymisensä ja suhteidensa kautta rakentaa ympäristön, joka alkaa vahvistaa samaa topologiaa. Monitasoinen jäsennys on projektin `BRIDGE`; yksittäiset kausaaliset mekanismit ja mittakaavojen väliset ennusteet on merkittävä `BRIDGE`- tai `HYPOTHESIS`-tasolle näytön mukaan.
+
 ---
 
 ## 8. Human Topologyn kuusiosainen analyysirunko
@@ -426,7 +571,7 @@ Analyysikysymyksiä ovat:
 - mitkä yhteydet ovat nopeita, pakollisia tai kuormitusherkkiä;
 - mitkä representaatiot toimivat keystone- tai hub-rakenteina;
 - miten self, other, henkilö, funktio, uhka, arvo ja vastuu on verkossa painotettu;
-- millaisia Self-Sacrifice-, Other-Sacrifice-, fusion-, autonomia- tai uhka-attraktoreita verkko tukee;
+- millaisia `Self-Sacrifice`- tai `Other-Sacrifice`-attraktoreita verkko tukee ja miten autonomia–fuusio-ulottuvuus sekä threat-salience-tila vaikuttavat niiden valikoitumiseen;
 - kuinka suuri kustannus yhden keskeisen yhteyden muuttamisesta seuraa muulle verkolle.
 
 ### 8.3 Käyttöoikeudet
@@ -502,6 +647,8 @@ Atlas ei tarvitse yhtä ainoaa tyyppijaottelua. Jokainen topologia voidaan kuvat
 | **Person–function balance** | Mallinnetaanko toinen autonomisena henkilönä vai ensisijaisesti hänen säätely-, hyöty- tai uhkafunktionsa kautta? |
 | **Salience calibration** | Saavatko signaalit painoa suhteessa evidenssiin ja tilanteeseen? |
 | **Self-relevance weighting** | Kuinka helposti ulkoiset tapahtumat tulkitaan itseä koskeviksi? |
+| **SELF → OTHER cross-map centring** | Missä määrin self oletetaan toisen kokemuksen, toiminnan tai kartan selityskeskukseksi? |
+| **OTHER → SELF cross-map centring** | Missä määrin toinen saa järjestää oman kartan arvoa, merkitystä, säätelyä tai toimintaa? |
 | **Updateability** | Saako uusi evidenssi muuttaa mallia, myös silloin kun muutos sattuu? |
 | **Reality tolerance window** | Kuinka laajan ristiriitaisen todellisuuden järjestelmä kestää ilman maailmatilan vaihtoa tai puolustavaa rekonstruktiota? |
 | **Responsibility routing** | Miten vastuu ja syyllisyys jaetaan, absorboidaan tai ulkoistetaan? |
@@ -513,6 +660,27 @@ Atlas ei tarvitse yhtä ainoaa tyyppijaottelua. Jokainen topologia voidaan kuvat
 | **Ecological fit** | Missä ympäristössä profiilin hyödyt ylittävät sen kustannukset? |
 
 Yksilön topologia on näiden ja muiden mahdollisten ulottuvuuksien yhdistelmä. Se voi vaihdella elämänalueittain: ihminen voi olla työssä integroitunut, läheisessä suhteessa fusion-hakuinen ja uhkatilanteessa other-sacrifice-painotteinen.
+
+### 8.8 Ontologiakartta — mitkä käsitteet ovat eri lajia?
+
+Kuusi kanonista osaa kertovat, **mistä kokonainen topologia kuvataan**. Seuraava ontologiakartta kertoo, **minkä lajinen yksittäinen käsite on**. Näitä kahta jäsennystä ei saa sekoittaa.
+
+| Ontologinen laji | Määritelmä | Esimerkki |
+|---|---|---|
+| **Ulottuvuus (dimension)** | Jatkuva akseli, jolla järjestelmä voi sijaita eri kohdissa. Keskeisyysasetukset ovat yhden tai useamman centring-ulottuvuuden arvorakenteita. | autonomia–fuusio; self-weighting–other-weighting; SELF → OTHER ja OTHER → SELF cross-map centring |
+| **Attraktori (attractor)** | Toistuvasti valikoituva stabilointi- tai kompressioreitti, johon järjestelmä eri lähtötiloista pyrkii. | Self-Sacrifice; Other-Sacrifice |
+| **Tila (state)** | Tämänhetkinen kuormitus- ja kontekstiriippuvainen järjestäytyminen. | threat-salience; good-world/bad-world-tila |
+| **Strategia (strategy)** | Toistuva toiminta- tai säätelytapa, joka vaikuttaa omaan tai relationaaliseen tilaan. | deniable signaling; topological probing; repair; withdrawal |
+| **Kuuden osan konfiguraatio** | Yhden tapauksen täysi kuvaus kaikkien kuuden kanonisen rakenneosan yli tietyssä kontekstissa. | kuvattu yksilö- tai suhdekonfiguraatio |
+| **Kandidaatillinen topologinen profiili** | Nimetty, testattavaksi tarkoitettu kooste ulottuvuuksista, attraktoreista, tiloista, strategioista sekä yhdestä tai useammasta kuuden osan konfiguraatiosta; yksittäinen Atlas-entry ei saa tätä statusta automaattisesti. | erottavilla ennusteilla ja falsifiointikriteereillä varustettu tutkimushypoteesi, ei diagnoosi tai pysyvä ihmistyyppi |
+
+`Centring` on ulottuvuusperhe, ei uusi ontologinen päätaso. `Keskeisyysasetus` tarkoittaa tämän perheen yhden tai useamman ulottuvuuden arvo- tai bias-kuviota. Keskeisyysasetukseen voivat lisäksi vaikuttaa self-relevance-painotus, self–other-weighting, agency- ja kausaaliattribuutio, person–function-tasapaino sekä se, saako toisen kartta korjata omaa karttaa. Asetus ei ole attraktori: se ei itsessään nimeä dynaamista vetovoima-allasta tai kuormituksessa valikoituvaa reittiä. Se ei myöskään ole tila, strategia, täysi konfiguraatio tai diagnoosi.
+
+`Topologinen geosentrisyys` sijoittuu tähän ontologiaan **hypoteettiseksi selfiä ylikeskittäväksi ulottuvuusasetukseksi**. Self-Sacrificeen liitetty peilikuva on **hypoteettinen toista ylikeskittävä ulottuvuusasetus**. Nämä eivät ole saman janan vastakkaiset päät vaan kaksi itsenäistä suuntaa, joten ne voivat myös esiintyä yhtä aikaa. Ihminen voi esimerkiksi antaa toiselle normatiivisen vallan oman karttansa yli ja samalla tulkita toisen tunnetilat kausaalisesti itsereferentiaalisina: “kaikki johtuu minusta”. `Vastavuoroinen paikallinen keskeisyys` on evidenssille avoin vertailuasetus, jossa kumpikin säilyy oman kokemuksensa origona ja tunnustaa toisen vastaavan paikallisen keskuksen.
+
+Käsitteet eivät muodosta yksisuuntaista kehitysketjua. Ulottuvuudet ja niiden keskeisyysasetukset vaikuttavat attraktoreihin; toistuva attraktori voi muuttaa ulottuvuuksien painoja; tila voi hetkellisesti aktivoida epätyypillisen keskeisyysasetuksen tai strategian; strategia voi vahvistaa suhdeympäristöä, joka vakauttaa alkuperäisen asetuksen. Kuuden osan konfiguraatio kokoaa tapaus- ja kontekstikohtaiset tiedot. Vasta nimetty ja testattavaksi tarkoitettu, mahdollisesti useita konfiguraatioita kokoava kooste on kandidaatillinen profiili.
+
+Ontologinen lajiero on pidettävä näkyvissä myös lyhenteissä. Ilmausta `Self-Sacrifice-painotteinen topologia` voidaan käyttää yleiskielisenä oikopolkuna vain, jos teknisessä yhteydessä täsmennetään, tarkoitetaanko Self-Sacrifice-attractorilla painottunutta kuuden osan konfiguraatiota vai laajempaa kandidaatillista profiilia.
 
 ---
 
@@ -628,13 +796,158 @@ Integraatio alkaa lauseesta:
 
 Toisen toiminnan ymmärtäminen ei kerro, kykeneekö hän sietämään syyllisyyttä, päivittämään self-malliaan, kunnioittamaan toisen autonomiaa tai muuttamaan käyttäytymistään.
 
+### 10.4 Asymmetric Map Updating ja Topological Reciprocity Assumption
+
+`Asymmetric Map Updating`, epäsymmetrinen kartanpäivitys, tarkoittaa relationaalista ja epistemistä dynamiikkaa, jossa kahden ihmisen kartat kohtaavat mutta ristiriidan vaatima päivitystyö, epävarmuus ja self-korjauksen kustannus kasautuvat toistuvasti toiselle osapuolelle. `[HYPOTHESIS]`
+
+```text
+A:n kartta ── ristiriita ──→ A tutkii ja päivittyy
+B:n kartta ── ristiriita ──→ B suojautuu ja säilyy
+                              ↓
+                   A kantaa yhteisen kartan päivitystaakan
+```
+
+Dynamiikka ei edellytä, että toinen olisi aina väärässä tai tietoisesti manipuloiva. Epäsymmetria voi syntyä erilaisesta häpeänsiedosta, vallasta, epävarmuuden sietokyvystä, riippuvuudesta, todellisuuden toleranssi-ikkunasta tai siitä, kuinka lähelle kerneliä kyseinen uskomus on kytketty.
+
+`Topological Reciprocity Assumption`, topologisen vastavuoroisuuden oletus, on tämän mahdollinen sokea piste:
+
+> **Ihminen olettaa, että toisella on sama halu ja kapasiteetti korjata omaa karttaansa maaston perusteella kuin hänellä itsellään.** `[HYPOTHESIS]`
+
+Joustava osapuoli voi ajatella:
+
+> Jos annan lisää tietoa, hän ymmärtää. Jos ymmärrän hänen karttansa ja hän minun, löydämme yhteisen tarkemman kuvan.
+
+Tämä on hyvä strategia vain, jos molemmat sallivat evidenssin muuttaa malliaan. Jos toinen kartta on suojattu ja toinen kantaa päivityskustannukset, lopputulos ei välttämättä ole:
+
+```text
+A + B → tarkempi yhteinen kartta
+```
+
+vaan:
+
+```text
+A + B → B:n kartta
+```
+
+Siksi useiden karttojen yhdistäminen vie lähemmäksi maastoa vain, jos kartat ovat korjattavissa maaston perusteella. Muuten kyse ei ole yhteisestä kartografiasta vaan neuvottelusta siitä, kumman kartan mukaiseksi maasto julistetaan.
+
 ---
 
-## 11. Asymmetrinen mallinnusresoluutio
+## 11. Kopernikaaninen käänne ihmismetsässä
+
+`Kopernikaaninen käänne ihmismetsässä` on Human Topology Atlasin suuri metafora keskipisteen suhteellisuudesta. Sen lähtökohta on yksinkertainen: paikallisesta havaintopisteestä syntyvä koordinaatisto voidaan erehtyä tulkitsemaan koko järjestelmän rakenteeksi.
+
+### 11.1 Historiallinen metafora ja sen rajat
+
+Geosentrinen kosmologia oli Maasta katsottuna intuitiivinen ja pystyi mallintamaan havaittuja liikkeitä oman aikansa tiedon ja menetelmien varassa. Kopernikuksen heliosentrinen malli siirsi Maan pois kosmoksen ainutlaatuisesta keskuksesta. Tämä riittää luvun kantavaksi historialliseksi metaforaksi: havaintopiste ei ole sama asia kuin järjestelmän rakenne.
+
+```text
+GEOSENTRINEN INTUITIO
+oma havaintopiste näyttää järjestelmän keskukselta
+        ↓
+KOPERNIKAANINEN KORJAUS
+havaintopiste ei ole sama kuin järjestelmän keskus
+```
+
+Giordano Bruno voidaan mainita korkeintaan rajattuna historiallisena sivuhuomiona: hän puolusti myöhemmin kuvaa rajattomasta universumista ja lukemattomista maailmoista, jossa tähdet voitiin ymmärtää muiden aurinkojen kaltaisiksi. Tämä voi rikastaa monien keskusten kuvaa, mutta keskusten moninaisuus on HTA:n oma käsitteellinen jatko eikä Brunosta johdettu argumentti. Kopernikus- ja Bruno-viittaukset ovat `METAPHOR`-tasoa.
+
+### 11.2 Keskipisteen suhteellisuus / Topological Relativity
+
+`Keskipisteen suhteellisuus` (`Topological Relativity`) tarkoittaa tässä projektissa:
+
+> **Jokainen ihminen on oman kokemuksellisen koordinaatistonsa keskus, mutta kukaan ei ole sosiaalisen todellisuuden absoluuttinen keskus.** `[BRIDGE]`
+
+Täsmällinen ydinlause on:
+
+> **Minä olen koordinaatistoni origo. Siitä ei seuraa, että olen järjestelmän origo.**
+
+Englanninkielinen `Topological Relativity` hyödyntää eksplisiittisesti vain viitekehyksen paikallisuuden analogiaa: sama sosiaalinen tapahtuma voidaan kuvata useasta kokemuksellisesta origosta, ja koordinaattikuvaus riippuu valitusta havaintopisteestä. Termi ei väitä psykologialle Einsteinin suhteellisuusteorian matematiikkaa, invariantteja, aika-avaruusgeometriaa tai fysikaalista täsmällisyyttä. Jos tätä rajaa ei yleisötekstissä avata, käytetään ensisijaisesti suomenkielistä nimeä `Keskipisteen suhteellisuus` ja jätetään englanninkielinen termi pois. `[BRIDGE + METAPHOR]`
+
+Ensimmäisen persoonan keskeisyys ei ole patologinen virhe. Ihminen voi kokea maailman vain omasta sijainnistaan, historiastaan ja kehostaan käsin. Virhe syntyy, kun paikallinen havaintokeskus samaistetaan koko sosiaalisen järjestelmän kausaaliseksi, moraaliseksi tai merkitykselliseksi keskukseksi.
+
+Terve autonomia ei vaadi oman keskuksen hävittämistä tai oman kokemuksen painon pienentämistä. Se vaatii sen paikallisuuden tunnistamista ja muiden vastaavien keskusten tunnustamista.
+
+> **Kypsyminen ei tarkoita oman keskuksen menettämistä. Se tarkoittaa sen ymmärtämistä paikalliseksi.**
+
+> **Olen oman taivaani keskus. Niin olet sinäkin omasi. Harha alkaa vasta, kun luulen sinun tähtiesi kiertävän minua.**
+
+### 11.3 Topologinen geosentrisyys narsistista organisaatiota koskevana hypoteesina
+
+`Topologinen geosentrisyys` on kohdassa 8.8 määritelty hypoteettinen **selfiä ylikeskittävä centring-ulottuvuusasetus**: taipumus päätellä sosiaalisen järjestelmän rakennetta omasta sijainnista niin, että self saa suhteettoman suuren selitys- ja keskeisyyspainon. Sen ontologinen laji on siis `ulottuvuusasetus / dimensional pattern`. Se ei ole attraktori, hetkellinen tila, strategia, kokonainen topologinen profiili tai diagnoosi. Narsistista organisaatiota koskeva sovellus on `HYPOTHESIS`, ei narsismin määritelmä eikä väite, että narsistinen ihminen ei näkisi muita ihmisinä.
+
+#### Yleisökielinen ydin
+
+> **Geosentrisen mielen ongelma ei ole, ettei se näkisi tähtiä. Se näkee ne kaikki — mutta tulkitsee niiden liikkeen oman sijaintinsa kautta.**
+
+Henkilö voi tunnistaa toisten tunnetiloja, motiiveja ja heikkoja kohtia hyvin tarkasti. Ratkaiseva kysymys on, missä koordinaatistossa tieto toisesta esitetään:
+
+```text
+TOINEN SUHTEESSA SELFIIN
+- arvostaako hän minua?
+- vahvistaako hän minäkuvaani?
+- uhkaako hän asemaani?
+- onko hän lojaali?
+- mitä saan häneltä?
+
+TOINEN OMAN JÄRJESTELMÄNSÄ KESKUKSENA
+- mikä on hänen historiansa?
+- mitä hän tarvitsee ja tavoittelee?
+- miten hän tulkitsee tapahtuman riippumatta minusta?
+- millaisia rajoja hänellä on?
+- miten hänen elämänsä jatkuu ilman minua?
+```
+
+#### Tekninen mekanismihypoteesi
+
+Hyvä sosiaalinen lukutaito tai funktionaalinen topologian lukeminen ei siis ole sama asia kuin toisen autonomian representoiminen tai topologinen empatia:
+
+```text
+GOOD SOCIAL READING / FUNCTIONAL TOPOLOGICAL LITERACY
+≠
+AUTONOMOUS PERSON REPRESENTATION / TOPOLOGICAL EMPATHY
+```
+
+Toisen täydellinen autonomia on laskennallisesti ja säätelyllisesti kallis representaatio, koska se tuo järjestelmään riippumattoman tiedonlähteen, omat tavoitteet, rajat, tulkinnat ja arviot. Autonominen toinen voi sanoa “ei”, muistaa tapahtuman eri tavalla, pitää minua vastuullisena, rakastaa ja silti lähteä tai toimia syistä, jotka eivät liity minuun. Hänen näkökulmansa voi olla ristiriidassa suojatun self-representaation kanssa eikä sitä voi hallita pelkällä oman kartan muutoksella.
+
+Jos tämä ristiriita ylittää järjestelmän kyvyn sietää itseä korjaavaa todellisuutta tai uhkaa suojattua minäkuvaa, järjestelmä voi hypoteettisesti:
+
+- alentaa toisen näkökulman epistemistä tai moraalista painoa;
+- komprimoida monimutkaisen henkilön funktioksi suhteessa selfiin: “minua vastaan”, “epäreilu”, “uhka”;
+- tulkita toisen itsenäisen liikkeen ensisijaisesti self-referentiaaliseksi;
+- ulkoistaa ristiriidan tai syyllisyyden toiseen;
+- säilyttää tarkan käyttäytymismallin toisesta antamatta tämän autonomiselle koordinaatistolle yhtä suurta representatiivista painoa.
+
+Väite on mekanismihypoteesi, joka on erotettava neurologisesta kyvyttömyydestä ymmärtää toisen mieltä, kliinisestä diagnoosista ja moraalisesta tuomiosta. Sama tilapäinen vääristymä voi esiintyä monilla ihmisillä uhan, häpeän tai kuormituksen alla.
+
+### 11.4 Toista ylikeskittävä asetus ja integraatio
+
+Self-sacrifice-painotteinen järjestelmä voi tehdä peilikuvamaisen keskivirheen. Ontologiassa kyse on hypoteettisesta **toista ylikeskittävästä centring-ulottuvuusasetuksesta**. Se ei välttämättä aseta selfiä kaikkien muiden karttojen keskukseksi, vaan sijoittaa toisen oman karttansa keskukseen ja antaa tämän tarpeiden, tunteiden tai arvioiden järjestää oman maailmansa.
+
+```text
+SELF → OTHER CENTRING BIAS / TOPOLOGINEN GEOSENTRISYYS
+minun paikallinen keskukseni tulkitaan myös sinun karttasi keskukseksi
+
+OTHER → SELF CENTRING BIAS / SELF-SACRIFICEEN LIITTYVÄ HYPOTEESI
+sinun paikallinen keskuksesi hyväksytään myös minun karttani keskukseksi
+```
+
+Nämä ovat `HYPOTHESIS`-tason ulottuvuusasetuksia, eivät vakiintuneita kliinisiä faktoja tai kaikkia narsistisia ja uhrautuvia ihmisiä koskevia sääntöjä. Ne eivät ole yhden janan vastakohdat, voivat esiintyä samassa ihmisessä yhtä aikaa ja voivat vaihdella suhteen, elämänalueen, tilan ja kuormituksen mukaan. Ne eivät yksin määritä kokonaista topologista profiilia.
+
+Integroitu muotoilu on:
+
+> **Minä olen minun keskukseni. Sinä olet sinun keskuksesi. Olemme yhteydessä, mutta kumpikaan ei kierrä toista.**
+
+Tämän ontologinen nimi on `vastavuoroinen paikallinen keskeisyys`. Keskusten moninaisuus ei tarkoita atomistista erillisyyttä. Paikalliset keskukset vaikuttavat toisiinsa, säätelevät toisiaan ja rakentavat yhteisiä suhde- ja kulttuuritopologioita. Yhteys ei kuitenkaan anna kummallekaan omistusoikeutta toisen koordinaatistoon.
+
+Teknisessä analyysissä nämä keskeisyysasetukset voidaan purkaa self-relevance-painotukseksi, self–other-weightingiksi, agency- ja kausaaliattribuutioksi, person–function-tasapainoksi sekä kartanpäivityksen oikeuksiksi. Tämä ristiinviittaus pidetään erillään luvun tähtitaivaskuvastosta.
+
+---
+
+## 12. Asymmetrinen mallinnusresoluutio
 
 `Asymmetric Modeling Resolution` tarkoittaa, että järjestelmä käyttää eri määrän tarkkuutta, painoa ja laskentaa itsen ja toisen eri puoliin.
 
-Mahdollinen hypervalpas/self-sacrifice-profiili:
+Mahdollinen hypervalpas, Self-Sacrifice-attractorilla painottunut kandidaatillinen konfiguraatio:
 
 ```text
 OTHER monitoring      korkea
@@ -645,7 +958,7 @@ SELF weighting        matalampi
 
 Tällöin toisen mielialoille tuotetaan lukuisia selityksiä, mutta oma kokemus komprimoituu lauseeseen “minussa on vika”.
 
-Mahdollinen narsistisesti organisoitunut profiili on monimutkaisempi:
+Mahdollinen narsistista organisaatiota koskeva mallinnusresoluution kuvio on monimutkaisempi:
 
 ```text
 SELF-relevant attention       korkea
@@ -666,7 +979,7 @@ Nämä ovat topologisia hypoteeseja, eivät kaikkia empaattisia, hypervalppaita 
 
 ---
 
-## 12. Person vs Function Representation
+## 13. Person vs Function Representation
 
 Toisen representaatiossa voidaan erottaa kaksi painotusta.
 
@@ -700,9 +1013,9 @@ Tämä voi näkyä ajoittaisena narsistisena toimintatilana ihmisellä, jolla ei
 
 ---
 
-## 13. Salienssi, merkitys, apofenia ja totuusarvo
+## 14. Salienssi, merkitys, apofenia ja totuusarvo
 
-### 13.1 Pakollinen erottelu
+### 14.1 Pakollinen erottelu
 
 ```text
 SIGNAL
@@ -724,7 +1037,7 @@ SIGNAL
 
 > **Aivot voivat olla oikeassa siinä, että jokin tuntuu merkitykselliseltä, mutta väärässä siinä, mitä merkityksellisyys todistaa.**
 
-### 13.2 Apofenia
+### 14.2 Apofenia
 
 Apofenia voidaan Human Topology Atlas -kielellä kuvata prosessina, jossa kohina saa riittävästi salienssia, liittyy olemassa oleviin representaatioihin ja tulkitaan evidenssiksi yhteisestä syystä. `[BRIDGE]`
 
@@ -739,7 +1052,7 @@ satunnainen kuvio
 
 Apofenia, referentiaalinen ajattelu tai merkitykselliset sattumat eivät ole narsismille spesifejä. Niitä voi esiintyä tavallisessa kuvioiden tunnistamisessa, surussa, hengellisyydessä, stressissä, univajeessa, maniassa, psykoositiloissa ja päihteiden vaikutuksessa. Narsismiin liitetty `self-relevance weighting` on korkeintaan erikseen testattava hypoteesi.
 
-### 13.3 Itseään vahvistava salienssisilmukka
+### 14.3 Itseään vahvistava salienssisilmukka
 
 ```text
 PRIOR: "maailma lähettää minulle merkkejä"
@@ -759,7 +1072,7 @@ Yleinen periaate:
 
 > **Malli muuttaa sitä, mitä huomataan, ja huomattu alkaa näyttää todisteelta mallista.**
 
-### 13.4 Episteminen palomuuri
+### 14.4 Episteminen palomuuri
 
 Episteminen palomuuri lisää salienssin ja uskomuksen väliin kysymyksen:
 
@@ -769,9 +1082,9 @@ Kokemuksen syvyyttä, varmuutta tai kauneutta ei tarvitse mitätöidä. Ne on va
 
 ---
 
-## 14. Self-Sacrifice ja Other-Sacrifice -attraktorit
+## 15. Self-Sacrifice ja Other-Sacrifice -attraktorit
 
-### 14.1 Bifurcation Hypothesis
+### 15.1 Bifurcation Hypothesis
 
 `Bifurcation Hypothesis` ehdottaa, että sama varhainen integraatio-ongelma voi joissakin oloissa vahvistaa kahta vastakkaista mutta yhteisestä ongelmasta syntyvää attraktoria. `[HYPOTHESIS]`
 
@@ -798,9 +1111,11 @@ Jos simultaaninen holding capacity ei kanna ristiriitaa, järjestelmä voi kompr
 `Self-sacrifice` säilyttää hyvän toisen uhraamalla selfin painoa.  
 `Other-sacrifice` säilyttää hyvän selfin sijoittamalla ristiriidan toiseen.
 
+Centring-ulottuvuuksien asetukset voivat muuttaa sen todennäköisyyttä, kumpi attraktori kuormituksessa aktivoituu, mutta keskeisyysasetus ei ole attraktori. Self-Sacrifice ei automaattisesti tarkoita vain toista ylikeskittävää asetusta: sama järjestelmä voi myös ylikeskittää selfin toisen tunnetilojen kausaaliseksi lähteeksi. Other-Sacrifice ei puolestaan yksin todista topologista geosentrisyyttä.
+
 Kumpikaan ei ole yksinään pysyvä ihmistyyppi. Samalla ihmisellä voi olla molemmat attraktorit, eri syvyydet, erilaiset siirtymiskynnykset ja kuormituksesta riippuvat napaisuuden vaihdot.
 
-### 14.2 Mahdolliset bifurkaatioparametrit
+### 15.2 Mahdolliset bifurkaatioparametrit
 
 - temperamentti ja affektiivinen reaktiivisuus;
 - uhka-, häpeä-, palkkio- ja dominanssiherkkyys;
@@ -814,7 +1129,7 @@ Kumpikaan ei ole yksinään pysyvä ihmistyyppi. Samalla ihmisellä voi olla mol
 
 Periytyvyys ei tarkoita valmiin topologian periytymistä. Periytyä voivat lähtöparametrit, jotka yhdessä ympäristön, kehityshistorian ja sattuman kanssa muuttavat attraktoreiden todennäköisyyttä. `[BRIDGE + HYPOTHESIS]`
 
-### 14.3 Self-blame kontrollistrategiana
+### 15.3 Self-blame kontrollistrategiana
 
 Self-blame voi olla muutakin kuin heikkoa itsetuntoa. Se voi palauttaa hallinnan:
 
@@ -829,7 +1144,7 @@ Self-blame voi olla muutakin kuin heikkoa itsetuntoa. Se voi palauttaa hallinnan
 
 Siksi yliajattelu voi toimia hakualgoritmina, joka tuottaa selityksiä kunnes se löytää vanhan säätelyratkaisun: “minussa on vika”.
 
-### 14.4 Polaarinen siirtymä ei ole integraatiota
+### 15.4 Polaarinen siirtymä ei ole integraatiota
 
 Pitkään self-sacrifice-attractorissa elänyt ihminen voi kapasiteetin ylittyessä hypätä other-sacrifice-napaan: “kaikki olikin sinun vikasi”. Ulkoistava järjestelmä voi puolustusten pettäessä romahtaa vastakkaiseen napaan: “minussa on kaikki vialla”.
 
@@ -840,9 +1155,9 @@ Terveempi tila ei ole mekaaninen keskikohta, vaan eriytetty vastuu:
 
 ---
 
-## 15. Responsibility Routing ja Guilt Markets
+## 16. Responsibility Routing ja Guilt Markets
 
-### 15.1 Vastuu ei ole sama kuin syyllisyyden tunne
+### 16.1 Vastuu ei ole sama kuin syyllisyyden tunne
 
 `Responsibility` määräytyy teon, vaikutuksen, tiedon, kontrollin ja korjausmahdollisuuden perusteella. `Guilt` on kokemus, joka voi olla kalibroitunut, liiallinen, puuttuva, ulkoistettu tai toisen pakottama.
 
@@ -850,7 +1165,7 @@ Terveempi tila ei ole mekaaninen keskikohta, vaan eriytetty vastuu:
 koettu syyllisyys ≠ todellinen vastuu
 ```
 
-### 15.2 Guilt Markets
+### 16.2 Guilt Markets
 
 `Guilt Markets` eli “syyllisyyden markkinat” on metafora järjestelmille, joissa ristiriidan, häpeän ja syyllisyyden kuorma etsii kantajaa.
 
@@ -860,7 +1175,7 @@ Kolme projektin kandidaattilakia ovat:
 2. **Syyllisyys virtaa kohti solmua, jolle sen kantaminen on rakenteellisesti halvinta tai joka on helpoin pakottaa kantamaan se.**
 3. **Kypsä järjestelmä jakaa vastuuta. Epävakaa järjestelmä siirtää syyllisyyttä.**
 
-### 15.3 Skaalautuminen
+### 16.3 Skaalautuminen
 
 Sama routing-dynamiikka voi esiintyä:
 
@@ -879,7 +1194,7 @@ Perheessä yhdestä lapsesta voi tulla syntipukkisolmu. Työpaikalla monisyinen 
 
 `Blame Absorption Capacity` on hypoteettinen mitta sille, kuinka paljon ihminen ottaa vastaan syytöstä tai aggressiota. Sen terve vastinpari ei ole loputon kantaminen vaan `Responsibility Redistribution Capacity`: kyky palauttaa vastuu realistisesti kaikille osapuolille ilman romahdusta, kostoa tai yhden osapuolen tekemistä kokonaan pahaksi.
 
-### 15.4 Syyllisyyden terve funktio
+### 16.4 Syyllisyyden terve funktio
 
 Siedettävä syyllisyys voi lokalisoida virheen:
 
@@ -893,9 +1208,9 @@ Se voi johtaa huoleen, vastuuseen, korjaamiseen ja mallin päivitykseen. Projekt
 
 ---
 
-## 16. Deniable Signaling ja Topological Probing
+## 17. Deniable Signaling ja Topological Probing
 
-### 16.1 Deniable signaling
+### 17.1 Deniable signaling
 
 `Deniable signaling`, kiistettävä signalointi, on strategisesti monitulkintainen viesti, jonka kohde voi tunnistaa henkilökohtaiseksi mutta jonka lähettäjä voi myöhemmin palauttaa viattomaksi ja välttää omistajuuden viestin merkityksestä.
 
@@ -910,7 +1225,7 @@ Rakenteessa yhdistyvät:
 
 Kaikki epäsuora puhe ei ole deniable signalingia. Epäsuora viestintä voi olla kohteliasta, leikkisää tai kulttuurisesti tavallista. Ratkaisevaa on strateginen kaksitulkintaisuus ja vastuun hallinta.
 
-### 16.2 Topological probing
+### 17.2 Topological probing
 
 `Topological probing` on toisen sisäisen rakenteen kartoittamista pienillä, halvoilla ja mahdollisesti kiistettävillä signaaleilla.
 
@@ -926,7 +1241,7 @@ lähetä pieni signaali
 
 Probing voi olla tietoista tai tiedostamatonta, hyväntahtoista tai kontrolloivaa. Flirtti, huumori ja varovainen luottamuksen rakentaminen voivat sisältää turvallista koettelua. Manipulatiivisessa muodossa probing etsii pienimmän vastuksen syyllisyysreittejä tai testaa, kuinka pitkälle rajoja voidaan venyttää.
 
-### 16.3 Empatia ja funktionaalinen lukutaito
+### 17.3 Empatia ja funktionaalinen lukutaito
 
 ```text
 TOPOLOGINEN EMPATIA
@@ -940,9 +1255,9 @@ Sama mallinnuskyky voi palvella eri päämäärää. Tarkka ihmistuntemus ei its
 
 ---
 
-## 17. SRF: simultaanisuus, kuormitus ja kompressio
+## 18. SRF: simultaanisuus, kuormitus ja kompressio
 
-### 17.1 Kolme erotettavaa kapasiteettia
+### 18.1 Kolme erotettavaa kapasiteettia
 
 SRF:n nykyisessä versiossa erotetaan:
 
@@ -952,7 +1267,7 @@ SRF:n nykyisessä versiossa erotetaan:
 
 Yksilö voi tuottaa rauhallisena useita tulkintoja mutta menettää niiden simultaanisuuden paineessa.
 
-### 17.2 SRF:n työtermit
+### 18.2 SRF:n työtermit
 
 | Termi | Projektimääritelmä | Status |
 |---|---|---|
@@ -965,7 +1280,7 @@ Yksilö voi tuottaa rauhallisena useita tulkintoja mutta menettää niiden simul
 | **Defensive Reconstruction** | Menetetyn simultaanisuuden jälkeen järjestelmä tuottaa uuden yksinkertaisemman sisällön koherenssin palauttamiseksi. | BRIDGE/HYPOTHESIS |
 | **Structural Opacity** | Järjestelmä ei havaitse omaa simultaanisuuskatoaan, koska sen havaitseminen vaatisi juuri menetettyä kapasiteettia. | HYPOTHESIS |
 
-### 17.3 Kompressio on mahdollisesti seuraus, ei mekanismi
+### 18.3 Kompressio on mahdollisesti seuraus, ei mekanismi
 
 Uusin SRF-kehystys on:
 
@@ -979,7 +1294,7 @@ simultaanisuuden menetys → ulospäin havaittu kompressio
 
 Kun “hän rakastaa minua”, “hän satutti minua”, “olen vihainen” ja “en halua menettää häntä” eivät enää pysy yhdessä, yksi representaatio alkaa dominoida: “hän on paha” tai “minä olen paha”.
 
-### 17.4 Kompression, simultaanisuuden ja resurssien hallinta
+### 18.4 Kompression, simultaanisuuden ja resurssien hallinta
 
 Monitulkinta vaatii työmuistia, affektinsietoa, aikaa, inhibitiota ja kykyä sietää epävarmuutta. Stressi, väsymys, päihteet, häpeä, uhka ja kiire voivat pienentää käytettävissä olevaa kapasiteettia.
 
@@ -997,7 +1312,7 @@ Mahdollisia kompressiotuloksia ovat:
 - yhden selityksen ylivarmuus;
 - tulevaisuuden aikajänteen lyheneminen.
 
-### 17.5 Structural Replacement Cost
+### 18.5 Structural Replacement Cost
 
 `Structural Replacement Cost` ehdottaa, että kuormituksessa järjestelmä säilyttää ne representaatiot, joiden menetys vaatisi suurimman verkon uudelleenjärjestämisen. `[HYPOTHESIS]`
 
@@ -1015,7 +1330,7 @@ Tämä ei ole väite tietoisen mielen päätöksestä eikä todistettu psykologi
 
 ---
 
-## 18. Reality Tolerance Window
+## 19. Reality Tolerance Window
 
 `Reality Tolerance Window` tarkoittaa sitä ristiriitaisen, yllätyksellisen ja selfiä korjaavan todellisuuden aluetta, jonka järjestelmä pystyy vastaanottamaan ilman että ydinedustus, koko maailmatila tai toiminnan koherenssi romahtaa.
 
@@ -1040,9 +1355,9 @@ Narsistista organisaatiota koskeva työhypoteesi on, että hauras hyvä maailma 
 
 ---
 
-## 19. Good World / Bad World -tilakone
+## 20. Good World / Bad World -tilakone
 
-### 19.1 Paikallinen päivitys vs maailmatilan vaihto
+### 20.1 Paikallinen päivitys vs maailmatilan vaihto
 
 Integroituneessa järjestelmässä ristiriita voi päivittää yhtä representaatiota:
 
@@ -1070,19 +1385,19 @@ BAD WORLD
 
 Tällöin “hyvä äiti” ja “paha äiti” eivät ole vain kaksi arviota samasta henkilöstä vaan osia eri representaatiomaailmoista. Kun yksi ankkuri vaihtuu, myös self, muut, tulevaisuus ja turvallisuus voivat vaihtua.
 
-### 19.2 Watchdog-hypoteesi
+### 20.2 Watchdog-hypoteesi
 
 Ulospäin positiivinen tila ei välttämättä ole levollinen tila. Suuri osa kapasiteetista voi kulua huonon maailman aktivoitumisen estämiseen. Grandioottisuus, kontrolli tai jatkuva validoinnin etsintä voivat joissakin rakenteissa toimia enemmän `watchdog`-prosesseina kuin nautintona. `[HYPOTHESIS + METAPHOR]`
 
-### 19.3 Ei narsismin yleismääritelmä
+### 20.3 Ei narsismin yleismääritelmä
 
 Splitting, state switching ja hyvä/paha-maailmat ovat siltoja objektisuhdeteorioihin, affektidynamiikkaan ja projektin omaan topologia-ajatteluun. Niitä ei saa käyttää niin, että kaikki voimakas mielialan vaihtelu tai konflikti nimetään narsismiksi.
 
 ---
 
-## 20. Läheisyys, process isolation ja shared reality
+## 21. Läheisyys, process isolation ja shared reality
 
-### 20.1 Terve distributed system
+### 21.1 Terve distributed system
 
 Hyvä läheisyys ei poista kahta kerneliä:
 
@@ -1096,7 +1411,7 @@ oma kernel                   oma kernel
 
 Kaksi ihmistä voi säädellä toisiaan ilman että toinen muuttuu toisen psykologisen jatkuvuuden ainoaksi ylläpitäjäksi.
 
-### 20.2 Shared reality
+### 21.2 Shared reality
 
 Kaikki suhteet rakentavat jaettua mallia:
 
@@ -1108,7 +1423,9 @@ Kaikki suhteet rakentavat jaettua mallia:
 
 Terveessä suhteessa kaksi topologiaa korjaavat toisiaan todellisuuden avulla. Epäterveessä suhteessa ne voivat alkaa yhdessä suojella samaa vääristymää.
 
-### 20.3 Shared Fantasy -hypoteesi
+Yhteinen todellisuus ei synny pelkästä karttojen sovittelusta. Se edellyttää, että molempien kartat voivat päivittyä maaston, riippumattoman evidenssin ja toisen aidosti autonomisen kokemuksen perusteella. Jos vain toinen kartta joustaa, `Asymmetric Map Updating` voi muuttaa näennäisen yhteisen totuuden yhden osapuolen suojatun kartan laajennukseksi.
+
+### 21.3 Shared Fantasy -hypoteesi
 
 `Shared Fantasy` on yhteinen relationaalinen malli, joka tarjoaa säätelyä, erityisyyttä, jatkuvuutta tai rooleja mutta voi vähitellen irrota todellisten henkilöiden muuttuvuudesta.
 
@@ -1124,7 +1441,7 @@ todellisuutta aletaan tulkita mallin säilyttämiseksi
 
 Shared fantasy ei ole sama kuin tavallinen romanttinen idealisaatio, yhteinen unelma tai parisuhteen “me”-kokemus. Ratkaisevaa on mallin jäykkyys, säätelytehtävä ja heikentynyt updateability.
 
-### 20.4 Dual Mothership Human Kernel -siltahypoteesina
+### 21.4 Dual Mothership Human Kernel -siltahypoteesina
 
 `Dual Mothership` on Sam Vakninin kehittämä käsite, ei vakiintunut kliininen teoria. Human Kernel -tulkinnassa se voidaan kuvata kahdensuuntaisena ulkoisen säätelyn silmukkana, jossa molemmat kumppanit toimivat toisilleen idealisoivina ensisijaisina säätelijöinä tai “äitifunktioina”. `[BRIDGE + HYPOTHESIS]`
 
@@ -1140,9 +1457,9 @@ Tätä mallia ei tule käyttää valmiina selityksenä jokaiselle vaikealle, lä
 
 ---
 
-## 21. Ontological Security, minimal self ja provenance
+## 22. Ontological Security, minimal self ja provenance
 
-### 21.1 Ontologinen turvallisuus
+### 22.1 Ontologinen turvallisuus
 
 `Ontological Security` tarkoittaa kokemusta siitä, että minä, maailma ja niiden välinen raja pysyvät riittävän jatkuvina ja luotettavina.
 
@@ -1156,11 +1473,11 @@ continuity
 → vakaa kokemus olemassaolosta samassa todellisuudessa
 ```
 
-### 21.2 Minimal self
+### 22.2 Minimal self
 
 `Minimal self` viittaa välittömään kokemukseen “minuudesta” ennen pitkää elämäntarinaa: kokemuksen ensimmäisen persoonan luonne, omistajuus ja toimijuus. Human Kernel ei väitä minimal selfin olevan yksi kernel-moduuli, vaan käyttää sitä siltana tutkimukseen, jossa perustavan self-kokemuksen häiriöitä tarkastellaan erillään narratiivisen identiteetin sisällöstä. `[BRIDGE]`
 
-### 21.3 Provenance
+### 22.3 Provenance
 
 Representaatio tarvitsee sisällön lisäksi metatietoa:
 
@@ -1179,7 +1496,7 @@ Representation {
 
 Ajatus, muisto ja ulkoinen havainto voivat olla sisällöllisesti rikkaita mutta epistemisesti vaarallisia, jos lähde, omistajuus tai varmuus katoaa.
 
-### 21.4 Psychosis bridges
+### 22.4 Psychosis bridges
 
 Human Kernelin varovainen siltahypoteesi on, että joissakin psykoottisissa kokemuksissa keskeinen ongelma ei ole vain väärä sisältö vaan infrastruktuuri, joka ratkaisee:
 
@@ -1203,7 +1520,7 @@ Tämä on `BRIDGE/HYPOTHESIS`, ei psykoosin yleinen mekanismi. Psykoosit ja skit
 
 ---
 
-## 22. Uskonto, ideologia ja shared kernels
+## 23. Uskonto, ideologia ja shared kernels
 
 Human Topology Atlas ei ota kantaa uskonnollisten väitteiden metafyysiseen totuuteen. Se voi tarkastella uskonnollisten representaatioiden psykologisia ja sosiaalisia funktioita.
 
@@ -1233,7 +1550,7 @@ Varoitus: uskontoa ei saa redusoida peloksi, vanhemman korvikkeeksi, harhaksi ta
 
 ---
 
-## 23. Päihteet, riippuvuus ja muuttunut runtime
+## 24. Päihteet, riippuvuus ja muuttunut runtime
 
 Päihteet eivät ensisijaisesti muuta ulkoista todellisuutta. Ne muuttavat järjestelmän toimintatilaa, jossa signaalit painotetaan, representaatiot muodostetaan, seuraukset mallinnetaan ja affektia säädellään.
 
@@ -1243,7 +1560,7 @@ sama todellisuus
 = erilainen koettu maailma
 ```
 
-### 23.1 Alkoholi esimerkkinä
+### 24.1 Alkoholi esimerkkinä
 
 Alkoholi voi akuutisti muuttaa inhibitiota, aikajännettä, seurauksien painoa, työmuistia ja ristiriitaisten representaatioiden simultaanisuutta. Tulevaisuuden seuraus voi olla tiedossa mutta saada päätöksessä liian pienen painon.
 
@@ -1253,7 +1570,7 @@ Human Kernel/SRF-kysymys on:
 
 Tämä on tutkimushypoteesi, ei syy käyttää alkoholia itsediagnostiikkaan tai tutkimukseen ilman eettistä ja lääketieteellistä valvontaa.
 
-### 23.2 Kannabis esimerkkinä
+### 24.2 Kannabis esimerkkinä
 
 Kannabis voi muuttaa salienssia, assosiaatioita, ajan kokemusta, muistia, kehotuntemusten painoa ja uhkatulkintoja. Koettu syvyys voi kasvaa ilman todellisuuskalibraation paranemista.
 
@@ -1261,13 +1578,13 @@ Kannabis voi muuttaa salienssia, assosiaatioita, ajan kokemusta, muistia, kehotu
 koettu syvyys ≠ episteminen tarkkuus
 ```
 
-### 23.3 Psykedeelit avoimena tutkimuskysymyksenä
+### 24.3 Psykedeelit avoimena tutkimuskysymyksenä
 
 Psykedeelit voivat mahdollisesti löyhentää vakiintuneita prioreita, lisätä kaukaisten representaatioiden kytkeytymistä ja tehdä vaihtoehtoisia self-järjestyksiä koettaviksi. `[BRIDGE/HYPOTHESIS]`
 
 Ne eivät ole “topologian skanneri”. Voimakas merkityksellisyyden kokemus ei todista havaittua rakennetta objektiiviseksi totuudeksi. Mahdollisen oppimisen kannalta jälkikäteinen integraatio ja todellisuudesta saatava näyttö ovat ratkaisevia.
 
-### 23.4 Riippuvuus säätelysilmukkana
+### 24.4 Riippuvuus säätelysilmukkana
 
 ```text
 epämiellyttävä tila
@@ -1281,9 +1598,9 @@ Riippuvuutta ei tule selittää vain heikkona itsekurina tai yhdellä topologial
 
 ---
 
-## 24. Evolutiivinen ja ekologinen kehys
+## 25. Evolutiivinen ja ekologinen kehys
 
-### 24.1 Peruskaava
+### 25.1 Peruskaava
 
 ```text
 TOPOLOGIA
@@ -1309,7 +1626,7 @@ dominanssipainotus + vastavuoroinen läheissuhde
 → mahdollinen tuhoisa kustannus
 ```
 
-### 24.2 Frequency-dependent strategies
+### 25.2 Frequency-dependent strategies
 
 Strategian hyöty voi riippua siitä, kuinka yleinen se on. Korkean luottamuksen ympäristö voi avata tilan kustannuksia ulkoistavalle strategialle; jos ulkoistaminen yleistyy, luottamus laskee ja sama strategia menettää tuottoaan.
 
@@ -1324,7 +1641,7 @@ yhteistyö ↑
 
 Tämä on evolutionary game theory -analogia, ei väite, että “empaatit” olisivat saaliita ja “narsistit” petoja.
 
-### 24.3 Partner Replaceability
+### 25.3 Partner Replaceability
 
 `Partner Replaceability` tarkoittaa koettua mahdollisuutta korvata ihmissuhde tai yhteistyökumppani toisella.
 
@@ -1341,7 +1658,7 @@ high replaceability
 → toisen funktionaalinen mallinnus voi vahvistua
 ```
 
-### 24.4 Kaupungistuminen ja sosiaalinen liikkuvuus
+### 25.4 Kaupungistuminen ja sosiaalinen liikkuvuus
 
 Ei pidä väittää, että empatia tai narsismi syntyivät kaupungistumisesta. Hoiva, yhteistyö, dominanssi, statusseuranta, vastavuoroisuus ja hyväksikäyttö ovat paljon kaupunkikulttuuria vanhempia.
 
@@ -1351,7 +1668,7 @@ Vahvempi hypoteesi on:
 
 Pienessä toistuvien kohtaamisten yhteisössä huijauksen mainekustannus voi olla korkea. Suuressa tai verkottuneessa ympäristössä exit cost voi olla matalampi ja verkoston vaihtaminen helpompaa. Tämä ei tee kaupungeista narsistisia eikä pienistä yhteisöistä terveitä; molemmissa on omat valta-, kontrolli- ja ulossulkemisdynamiikkansa.
 
-### 24.5 Niche construction
+### 25.5 Niche construction
 
 Topologia ei vain sopeudu ympäristöön. Se voi rakentaa ympärilleen sosiaalisen ekologian, joka vahvistaa sitä.
 
@@ -1365,13 +1682,13 @@ oma topologia
 
 Kontrolloiva ihminen voi rakentaa ympäristön, jossa muut ennakoivat, varovat ja raportoivat. Self-sacrifice-painotteinen ihminen voi rakentaa verkoston, jossa muut turvautuvat häneen yhä enemmän. Näin topologia tuottaa osan omasta nichestään.
 
-### 24.6 Extended Phenotype -analogia
+### 25.6 Extended Phenotype -analogia
 
 `Extended Phenotype` on Richard Dawkinsin geenivaikutuksia koskeva biologinen käsite. Human Topology Atlas käyttää sitä vain analogiana: psykologisen rakenteen vaikutus voi näkyä oman käyttäytymisen lisäksi muiden ihmisten käyttäytymisessä ja sosiaalisen verkoston muodossa.
 
 Tämä ei tarkoita, että sosiaalinen verkosto olisi kirjaimellisesti henkilön geneettinen extended phenotype. Oikea tunniste on `METAPHOR`, ellei myöhempi tutkimus määritä erillistä testattavaa mekanismia.
 
-### 24.7 Evoluutioväitteiden rajat
+### 25.7 Evoluutioväitteiden rajat
 
 Ei pidä sanoa:
 
@@ -1385,9 +1702,9 @@ Evolutiivinen tarina on hypoteesi, ei historiallinen tosiasia. Vältä teleologi
 
 ---
 
-## 25. Human Topology Atlas kartastona
+## 26. Human Topology Atlas kartastona
 
-### 25.1 Atlas ei ole tyyppitesti
+### 26.1 Atlas ei ole tyyppitesti
 
 Kartaston yksikkö ei ole “ihmistyyppi”, vaan kuvattu järjestäytymismuoto tietyillä oletuksilla, ulottuvuuksilla ja tilasiirtymillä.
 
@@ -1399,7 +1716,13 @@ Vaan:
 
 > Tässä on yksi mahdollinen järjestäytymistapa. Tutki, missä tilanteissa ja missä määrin tunnistat sen itsessäsi tai vuorovaikutuksessa.
 
-### 25.2 Atlas-entryn vakiomuoto
+### 26.2 Kanoniset hahmoartefaktit
+
+Ensimmäisen yleisökirjan dramaturginen auktoriteetti on `Human-Topology-Atlas-reader-facing-book-outline.md` 2.1. `Aino-first-complete-Atlas-entry.md`, `Markus-second-complete-Atlas-entry.md`, `Elena-third-complete-Atlas-entry.md` ja `Tuomas-fourth-complete-Atlas-entry.md` ovat hahmojen sisäistä jatkuvuutta ohjaavia täydellisiä kuuden osan taustakonfiguraatioita.
+
+Kaikki neljä ovat `HYPOTHESIS`-tasoisia fiktiivisiä koostehahmoja (`COMPOSITE ILLUSTRATION`). Ne operationalisoivat Atlas-entryn vakiomuodon mutta eivät ole empiirisiä tapauskuvauksia, diagnooseja, neljä universaalia topologiaa tai automaattisesti kandidaatillisia profiileja. Master Context ratkaisee ontologian, reader-facing outline ensimmäisen yleisökirjan dramaturgian ja hahmoentryt vain omien koostehahmojensa käsitteellisen jatkuvuuden.
+
+### 26.3 Atlas-entryn vakiomuoto
 
 Jokainen varsinainen atlas-entry rakennetaan seuraavan mallin mukaan. Kuusi kanonista rakenneosaa ovat entryn pakollinen ydin; vahvuudet, sokeat pisteet, ekologia, palautuminen ja eettiset rajat täydentävät niitä.
 
@@ -1407,7 +1730,11 @@ Jokainen varsinainen atlas-entry rakennetaan seuraavan mallin mukaan. Kuusi kano
 ## [Topologian työnimi]
 
 **Episteminen status:** ESTABLISHED / BRIDGE / HYPOTHESIS / METAPHOR / OPEN
-**Taso:** piirreprofiili / tilatopologia / kehityshypoteesi / relationaalinen dynamiikka
+**Aineiston luonne:** empiirinen aineisto / kliininen havainto / fiktiivinen koostehahmo / teoreettinen konstruktio / muu täsmennetty aineisto
+**Ontologinen laji:** ulottuvuus / attraktori / tila / strategia / kuuden osan konfiguraatio / kandidaatillinen profiili
+**Mittakaava:** representaatio / kokemus / yksilö / suhde / sosiaalinen tai kulttuurinen rakenne
+**Centring-asetus:** kuvaa erikseen riippumattomat SELF → OTHER- ja OTHER → SELF -akselit sekä niiden konteksti; vastavuoroinen paikallinen / muu evidenssin mukaan kuvattu asetus
+**Konteksti:** perustaso / kuormitus / tietty suhde tai elämänalue / kehityshypoteesi
 **Ei tarkoita:** [diagnoosit ja yleistävät väärintulkinnat, joita on vältettävä]
 
 ### 1. Sisäinen logiikka
@@ -1430,6 +1757,7 @@ Jokainen varsinainen atlas-entry rakennetaan seuraavan mallin mukaan. Kuusi kano
 ### 4. Yhteysrakenne
 - keskeiset solmut, painot, riippuvuudet ja hubit
 - self/other-painotus ja henkilö–funktio-suhde
+- SELF → OTHER- ja OTHER → SELF -centring-ulottuvuudet
 - salienssi, self-relevance, responsibility routing ja attractorit
 - paikallisen signaalin leviämisreitit
 
@@ -1488,9 +1816,11 @@ Jokainen varsinainen atlas-entry rakennetaan seuraavan mallin mukaan. Kuusi kano
 - Miten vältetään leimaaminen, diagnoosit ja väärä varmuus?
 ```
 
-### 25.3 Prototyyppi: Self-Sacrifice Topology
+### 26.4 Prototyyppi: Self-Sacrifice-painotteinen konfiguraatio
 
 **Status:** `HYPOTHESIS/BRIDGE`; ei diagnoosi eikä synonyymi empatialle.
+
+**Ontologinen laji:** kuuden osan kandidaatillinen konfiguraatio, jossa `Self-Sacrifice` nimeää ensisijaisen attraktorin eikä koko profiilia.
 
 **Sisäinen logiikka:** jos ristiriidan syy löytyy minusta, voin muuttua, säilyttää yhteyden ja palauttaa hallinnan.
 
@@ -1504,9 +1834,11 @@ Jokainen varsinainen atlas-entry rakennetaan seuraavan mallin mukaan. Kuusi kano
 
 **Tyypillinen projektiovirhe:** “Kun hän ymmärtää aiheuttamansa kivun, hän varmasti haluaa korjata.”
 
-### 25.4 Prototyyppi: Other-Sacrifice Topology
+### 26.5 Prototyyppi: Other-Sacrifice-painotteinen konfiguraatio
 
 **Status:** `HYPOTHESIS/BRIDGE`; ei diagnoosi eikä synonyymi narsismille.
+
+**Ontologinen laji:** kuuden osan kandidaatillinen konfiguraatio, jossa `Other-Sacrifice` nimeää ensisijaisen attraktorin eikä koko profiilia.
 
 **Sisäinen logiikka:** jos uhkaava ristiriita sijoitetaan toiseen, selfin arvo, toimijuus tai koherenssi voidaan säilyttää.
 
@@ -1522,9 +1854,11 @@ Jokainen varsinainen atlas-entry rakennetaan seuraavan mallin mukaan. Kuusi kano
 
 ---
 
-## 26. Cross-Topology Blind-Spot Matrix
+## 27. Cross-Topology Blind-Spot Matrix
 
 Seuraava matriisi on havainnollistava `HYPOTHESIS`, ei valmis taksonomia. Rivi on havaitseva topologia ja sarake kohdetopologia. Solu kuvaa tyypillistä mahdollista väärintulkintaa.
+
+Matriisin lyhyet nimet ovat luettavuuden vuoksi käytettyjä profiilioikopolkuja. Esimerkiksi `Self-sacrifice` tarkoittaa tässä Self-Sacrifice-attractorilla painottunutta kandidaatillista konfiguraatiota, ei väitettä siitä, että attraktori olisi itsessään kokonainen topologia.
 
 | Havaitseva ↓ / Kohde → | **Self-sacrifice** | **Other-sacrifice** | **High-autonomy** | **Fusion-seeking** | **Threat-vigilant** |
 |---|---|---|---|---|---|
@@ -1545,43 +1879,45 @@ Yhteensopivuus ei myöskään tarkoita terveyttä. Kaksi topologiaa voi sopia yh
 
 ---
 
-## 27. Tärkeät varoitukset ja rajaukset
+## 28. Tärkeät varoitukset ja rajaukset
 
-### 27.1 Narsismi
+### 28.1 Narsismi
 
 - Atlas ei ole teoria “narsisteista”.
 - Narsistiset piirteet, toimintatilat, puolustusratkaisut ja narsistinen persoonallisuushäiriö eivät ole sama asia.
 - Yksittäisestä käytöksestä, topologisesta piirteestä tai vaikeasta suhteesta ei tehdä diagnoosia.
 - Narsistisesti organisoitunut mieli ei ole automaattisesti psykoottinen, vailla empatiaa, täysin muuttumaton tai tietoisesti manipuloiva.
-- `Other-sacrifice`, functional modeling, narrow reality tolerance window ja good/bad state machine ovat hypoteettisia profiileja, eivät narsismin määritelmä.
+- Ei pidä väittää, että narsistinen ihminen “ei näe muita ihmisinä”. `Topologinen geosentrisyys` kysyy, saako toisen autonominen koordinaatisto yhtä suuren representatiivisen painon kuin oma.
+- Tarkka sosiaalinen lukutaito ei kumoa eikä todista topologista geosentrisyyttä: toinen voidaan mallintaa tarkasti suhteessa selfin säätelyyn, asemaan tai tarpeisiin.
+- `Other-Sacrifice` on hypoteettinen attraktori; functional modeling on representaatio- ja ulottuvuuspainotus; narrow reality tolerance window on ulottuvuusasetus; good/bad state machine kuvaa tiladynamiikkaa. Mikään niistä ei yksin ole narsismin määritelmä tai kokonainen profiili.
 
-### 27.2 Empatia
+### 28.2 Empatia
 
 - “Empaatti” ei ole tässä kliininen luokka eikä moraalisesti ylempi ihmistyyppi.
 - Herkkyys toisten tiloille voi olla hoivaa, hypervalppautta, mentalisaatiota, miellyttämistä, uhkamonitorointia tai funktionaalista lukutaitoa.
 - Empatia ei takaa rajoja, integraatiota, todellisuustarkkuutta tai eettistä toimintaa.
 - Self-sacrifice ei ole sama kuin hyvyys.
 
-### 27.3 Psykoosi
+### 28.3 Psykoosi
 
 - Psykoosi, skitsofrenia, mania, dissosiaatio, apofenia ja uskonnollinen kokemus eivät ole keskenään vaihdettavia käsitteitä.
 - Provenance-, salienssi- ja minimal self -sillat ovat tutkimuskehystyksiä, eivät yksi selittävä mekanismi.
 - Psykoosista kärsivää ihmistä ei kuvata hänen “vääränä topologianaan” eikä hoideta tämän mallin avulla ilman kliinistä asiantuntemusta.
 
-### 27.4 Uskonto
+### 28.4 Uskonto
 
 - Psykologisen funktion kuvaaminen ei vahvista eikä kumoa uskonnon totuusväitteitä.
 - Uskonto ei ole automaattisesti regressio, shared fantasy, harha tai ontologisen heikkouden merkki.
 - Sekulaari ideologia, tiedeyhteisö, valtio ja perhe voivat käyttää samoja jaetun todellisuuden, rituaalin ja syyllisyysreitityksen mekanismeja.
 
-### 27.5 Evoluutio
+### 28.5 Evoluutio
 
 - Nykyisestä käyttäytymisestä ei päätellä varmaa evoluutiohistoriaa.
 - “Adaptiivinen” ei tarkoita hyvää, oikeaa, väistämätöntä tai geneettisesti määrättyä.
 - Kaupungistuminen ei luonut empatiaa tai narsismia; se voi hypoteettisesti muuttaa strategioiden suhteellisia tuottoja.
 - Extended phenotype on tässä analogia, ei geneettinen väite.
 
-### 27.6 Moraali
+### 28.6 Moraali
 
 - Rakenteellinen selitys ei poista vastuuta.
 - Topologian ymmärtäminen ei oikeuta pahoinpitelyä, hyväksikäyttöä, manipulointia tai rajojen rikkomista.
@@ -1589,11 +1925,11 @@ Yhteensopivuus ei myöskään tarkoita terveyttä. Kaksi topologiaa voi sopia yh
 
 ---
 
-## 28. Tutkimusohjelma ja falsifioitavuus
+## 29. Tutkimusohjelma ja falsifioitavuus
 
 Projektin tieteellinen arvo syntyy vain, jos käsitteistä voidaan johtaa mittareita, ennusteita ja mahdollisia kumoutumisehtoja.
 
-### 28.1 Kolmen kysymyksen SRF-analyysi
+### 29.1 Kolmen kysymyksen SRF-analyysi
 
 Jokaista ilmiötä voidaan alustavasti tutkia kysymällä:
 
@@ -1601,7 +1937,7 @@ Jokaista ilmiötä voidaan alustavasti tutkia kysymällä:
 2. Mitkä niistä putoavat ensimmäisinä kuormituksen kasvaessa?
 3. Mitä uusia representaatioita järjestelmä tuottaa koherenssin palauttamiseksi?
 
-### 28.2 Mahdollisia mitattavia muuttujia
+### 29.2 Mahdollisia mitattavia muuttujia
 
 - vaihtoehtoisten tulkintojen määrä;
 - tulkintojen todennäköisyysjakauma ja entropy;
@@ -1614,23 +1950,29 @@ Jokaista ilmiötä voidaan alustavasti tutkia kysymällä:
 - blame allocation suhteessa kausaaliseen vastuuseen;
 - CT ja compression curve eri signaaliluokissa;
 - recovery latency ja uusi baseline;
-- partner replaceabilityn yhteys exit-, repair- ja exploitation-valintoihin.
+- partner replaceabilityn yhteys exit-, repair- ja exploitation-valintoihin;
+- kartanpäivityksen suunta ja suuruus vastavuoroisessa erimielisyydessä;
+- self-referentiaalisten ja toisen autonomiaan perustuvien selitysten suhde;
+- kyky erottaa havaittu piste, päätelty yhteys ja ulkoisesti varmennettu suhde toisistaan.
 
-### 28.3 Esimerkkiennusteita
+### 29.3 Esimerkkiennusteita
 
 - Hallittu kuormitus vähentää representaatioiden simultaanisuutta ja lisää kategorisia sosiaalisia tulkintoja. `[HYPOTHESIS]`
-- Self-sacrifice-profiili säilyttää kuormassa enemmän toisen selityksiä kuin omia tarpeita koskevia representaatioita. `[HYPOTHESIS]`
-- Other-sacrifice-profiili säilyttää self-koherenssia uhkaavat representaatiot heikommin ja käyttää enemmän blame externalizationia. `[HYPOTHESIS]`
+- Self-Sacrifice-attractorilla painottunut konfiguraatio säilyttää kuormassa enemmän toisen selityksiä kuin omia tarpeita koskevia representaatioita. `[HYPOTHESIS]`
+- Other-Sacrifice-attractorilla painottunut konfiguraatio säilyttää self-koherenssia uhkaavat representaatiot heikommin ja käyttää enemmän blame externalizationia. `[HYPOTHESIS]`
 - Korkea koettu partner replaceability vähentää korjaamisen arvoa joissakin payoff-ympäristöissä. `[HYPOTHESIS]`
 - Topological empathy ja integration erottuvat mittareissa: toisen mallinnustarkkuus voi olla korkea samalla kun rajat ja vastuun erottelu ovat heikot. `[HYPOTHESIS]`
+- Funktionaalinen sosiaalinen lukutarkkuus ja toisen autonomisen koordinaatiston representatiivinen paino erottuvat mittareissa: ihminen voi ennustaa toisen käyttäytymistä tarkasti ja silti tuottaa suhteettoman paljon self-referentiaalisia selityksiä. `[HYPOTHESIS]`
+- Suhteissa, joissa kartanpäivityksen kustannus on epäsymmetrinen, joustavampi osapuoli muuttaa tapahtumamalliaan toistuvasti enemmän myös silloin, kun riippumaton evidenssi ei tue muutoksen suuntaa. `[HYPOTHESIS]`
+- Topologisen vastavuoroisuuden oletus ennustaa pitkään jatkuvaa selittämistä ja sovittelua tilanteissa, joissa toinen osapuoli ei osoita vastaavaa evidenssiperusteista päivittymistä. `[HYPOTHESIS]`
 
-### 28.4 Simulaatioperiaate
+### 29.4 Simulaatioperiaate
 
 Simulaatiota ei saa ohjelmoida todistamaan haluttua tulosta. Paikalliset säännöt, kuormitusparametrit, verkon riippuvuudet ja oppimishistoria määritetään, ja sen jälkeen tutkitaan, syntyvätkö self-sacrifice- ja other-sacrifice-attraktorit emergentisti.
 
 Hyvä tutkimustyökalu voi kertoa teorialle, että teoria oli väärässä.
 
-### 28.5 Avoimet ydinkysymykset
+### 29.5 Avoimet ydinkysymykset
 
 - Onko Simultaneity Principle aidosti yhdistävä mekanismi vai uusi sanasto vanhoille ilmiöille?
 - Mikä määrittää representaatioiden structural replacement costin?
@@ -1639,15 +1981,22 @@ Hyvä tutkimustyökalu voi kertoa teorialle, että teoria oli väärässä.
 - Miten biologia, temperamentti, kehitys ja nykyympäristö erotetaan toisistaan?
 - Miten topologista empatiaa mitataan ilman että se sekoittuu projektioon, mentalisaatioon tai manipulatiiviseen lukutaitoon?
 - Milloin shared reality muuttuu shared fantasyksi?
+- Millä ehdoilla kahden kartan yhdistäminen parantaa todellisuuskalibraatiota, ja milloin se tuottaa epäsymmetrisen kartanpäivityksen?
+- Voidaanko topologinen geosentrisyys erottaa tavallisesta ensimmäisen persoonan perspektiivistä, sosiaalisesta tarkkanäköisyydestä ja kliinisestä narsismista?
+- Miten representaatio-, kokemus-, yksilö-, suhde- ja kulttuuritopologian kaksisuuntaiset vaikutukset voidaan mitata ilman tasovirhettä?
 - Missä kohdassa käyttökelpoinen metafora lakkaa lisäämästä selitysvoimaa?
 
 ---
 
-## 29. Kirjan nykyinen positiointi
+## 30. Kirjan nykyinen positiointi
 
-### 29.1 Pääotsikko
+### 30.1 Pääotsikko
 
 **Human Topology Atlas**
+
+Keskeinen suomalainen tunnuslause:
+
+> **Topologinen kartta ihmismetsään**
 
 Suomenkielinen työalaotsikko:
 
@@ -1655,9 +2004,9 @@ Suomenkielinen työalaotsikko:
 
 Kansainvälinen mahdollinen alaotsikko:
 
-> **A Human Kernel Guide to the Hidden Structures of the Mind**
+> **Why We Live in the Same World but Experience Different Realities**
 
-### 29.2 Kirjan lupaus
+### 30.2 Kirjan lupaus
 
 > **Et opi vain ymmärtämään itseäsi. Opit näkemään, miksi toinen ihminen voi katsoa samaa maailmaa ja nähdä jotain täysin muuta — ilman että sinun täytyy kadottaa oma todellisuutesi, rajasi tai vastuuntajusi.**
 
@@ -1665,7 +2014,9 @@ Vielä tiiviimmin:
 
 > **Kirja antaa kartan ihmisten sisäisiin rakenteisiin ja niiden välisiin sokeisiin pisteisiin.**
 
-### 29.3 Kaupallinen positio
+Lukijalupauksen emotionaalinen ydin ei ole teorian opettaminen vaan kohdassa 2 määritelty tunnistamisen ja nimeämisen kokemus. Lukijan tulee ensin tunnistaa tuttu rakenne, sitten saada sille nimi ja vasta sen jälkeen nähdä mekanistinen kartta.
+
+### 30.3 Kaupallinen positio
 
 Kirjaa ei myydä uutena kaiken selittävänä psykologisena teoriana. Sen myytävä lupaus on tunnistettava lukijahyöty:
 
@@ -1681,9 +2032,24 @@ Laaja yleisö voi tunnistaa projektista:
 - omat kuormituksen aikaiset tilasiirtymät;
 - sen, kuinka sisäinen malli voi tuntua todellisuudelta.
 
-Erottautumistekijä on insinöörin ja ohjelmistoarkkitehdin järjestelmäkieli: representaatiot, topologiat, kernel, käyttöoikeudet, process isolation, runtime, state machines ja distributed systems. Metaforien tulee palvella ymmärrystä, ei peittää tieteellistä epävarmuutta.
+Yleisökirjan ensisijainen kuvakieli on tähtitaivas ja kartografia. Niiden tehtävä on tehdä perspektiivi, merkitysyhteydet, kartan päivitettävyys ja paikalliset keskukset välittömästi nähtäviksi.
 
-### 29.4 Mitä kirja ei ole
+Teorian taustalla oleva mekanistinen erottelukyky tulee insinöörin ja ohjelmistoarkkitehdin järjestelmäkielestä: representaatiot, Human Kernel, käyttöoikeudet, process isolation, runtime, state machines ja distributed systems. Tämä tekninen rekisteri sijoitetaan omiin teoriajaksoihinsa tai laatikoihinsa eikä sitä ketjuteta tähtitaivaskuvastoon. Metaforien tulee palvella ymmärrystä, ei peittää tieteellistä epävarmuutta.
+
+Yleisölle käsitteet tuodaan johdonmukaisesti tämän dramaturgian kautta:
+
+```text
+tuttu mutta vaikeasti sanallistettava kokemus
+→ ilmiön nimeäminen
+→ yksinkertainen rakenteellinen kartta
+→ oman ja toisen sokean pisteen näyttäminen
+→ episteminen rajaus: kartta ei ole maasto
+→ käytännöllinen vapaus, vastuu tai raja
+```
+
+Tähtitaivaan kartoitus ja `Kopernikaaninen käänne ihmismetsässä` tarjoavat kirjalle yhtenäisen kuvakielen: lukija oppii erottamaan havaitut tähdet itse piirtämistään viivoista ja oman paikallisen keskuksensa koko ihmismetsän rakenteesta.
+
+### 30.4 Mitä kirja ei ole
 
 - ei narsismikirja;
 - ei persoonallisuustesti;
@@ -1693,201 +2059,208 @@ Erottautumistekijä on insinöörin ja ohjelmistoarkkitehdin järjestelmäkieli:
 - ei “teoria kaikesta”;
 - ei ohjelmistometaforilla naamioitu varmuus psykologiasta.
 
-### 29.5 Kirjan kaupallinen vahvuus
+### 30.5 Kirjan kaupallinen vahvuus
 
 `Human Kernel` oli vahva mekanisminimi mutta tekninen ja kapea. `Human Topology Atlas` lupaa löytämisen kokemuksen: lukija haluaa paikantaa oman topologiansa, läheisensä topologian, niiden yhteensopivuuden ja välisen sokean pisteen. “Atlas” sallii sekä suuren yleisen kertomuksen että toistettavan entry-formaatin.
 
 ---
 
-## 30. Päivitetty sisällysluettelo
+## 31. Laaja käsitteellinen sisällysluettelo
+
+Seuraava 42 luvun rakenne on teorian kattava käsitteellinen lähdekartta, ei ensimmäisen yleisökirjan sitova lukujärjestys. Ensimmäisen yleisökirjan auktoritatiivinen rakenne on `Human-Topology-Atlas-reader-facing-book-outline.md` 2.1: se tiivistää aineiston 24 päälukuun ja järjestää sen lukijan muutoskaaren sekä yleisökielisen tähtitaivas- ja kartografiarekisterin mukaan. Jos lukujen nimet tai järjestys eroavat, reader-facing-outline ratkaisee ensimmäisen yleisökirjan dramaturgian ja tämä osio säilyttää käsitteellisen kattavuuden.
 
 **Human Topology Atlas**  
 *Miksi ihmiset elävät samassa maailmassa mutta eri todellisuuksissa*
 
-### Alkulause — Kartta ei ole todellisuus
+### Alkulause — Topologinen kartta ihmismetsään
 
 - miksi sama maailma muuttuu erilaisiksi kokemuksiksi;
 - miksi tämä ei ole uusi persoonallisuustesti;
 - Human Kernelin ja Atlas-kehyksen ero;
+- miksi ilmiön nimeäminen tekee eletyn rakenteen näkyväksi;
 - lukijan eettinen sopimus: ymmärrys ilman leimaamista.
 
 ### OSA I — Perusta: Human Kernel ja kuuden osan Atlas
 
-#### 1. Kartta ei ole todellisuus
+#### 1. Tähtikartta ei ole tähtitaivas
 
-Sisäinen maailma, merkitysverkko, sisäinen rakenne ja topologia; kokemus on aito ilman että kaikki sen tulkinnat ovat tosia.
+Todellisuus → signaalit → sisäinen topologia → koettu todellisuus. Tähdet signaaleina, viivat yhteyksinä, tähtikuvio merkityksenä sekä ero maailmassa olevien ja havaitsijan piirtämien suhteiden välillä. Sisäinen maailma, merkitysverkko, sisäinen rakenne ja topologia; kokemus on aito ilman että kaikki sen tulkinnat ovat tosia.
 
-#### 2. Human Kernel — Kuka kokee ja kuka toimii?
+#### 2. Kopernikaaninen käänne ihmismetsässä
+
+Keskipisteen suhteellisuus, havaintokoordinaatiston ja järjestelmärakenteen ero, Kopernikaanisen metaforan historialliset rajat, monet paikalliset keskukset HTA:n omana jatkona, Bruno valinnaisena sivuhuomiona, topologinen geosentrisyys hypoteesina sekä autonomia ilman oman tai toisen keskuksen menettämistä.
+
+#### 3. Human Kernel — Kuka kokee ja kuka toimii?
 
 Continuity, ownership, agency, self/world- ja self/other-erottelu, provenance, minimal self, ontological security ja minimaaliset invariantit.
 
-#### 3. Structural Regulation Framework — Mitä mieli pystyy pitämään yhtä aikaa?
+#### 4. Structural Regulation Framework — Mitä mieli pystyy pitämään yhtä aikaa?
 
 Representational capacity, holding capacity, IRC, simultaanisuus, kompressio ja palautuminen.
 
-#### 4. Six-Part Architecture — Kuinka Atlas luetaan?
+#### 5. Six-Part Architecture — Kuinka Atlas luetaan?
 
-Representatiivinen sanasto, yhteysrakenne, käyttöoikeudet, generatiiviset ennakko-oletukset, tilasiirtymät ja ympäristön stabilointisopimus. Miksi nämä ovat tarkastelutasoja eivätkä kuusi persoonallisuuspiirrettä.
+Representatiivinen sanasto, yhteysrakenne, käyttöoikeudet, generatiiviset ennakko-oletukset, tilasiirtymät ja ympäristön stabilointisopimus. Miksi nämä ovat tarkastelutasoja eivätkä kuusi persoonallisuuspiirrettä. Ontologiakartta erottaa ulottuvuudet — mukaan lukien centring-ulottuvuudet — attraktoreista, tiloista, strategioista, konfiguraatioista ja profiileista.
 
 ### OSA II — Representatiivinen sanasto: mitä mieli pystyy näkemään?
 
-#### 5. Representation Engine — Emme elä suoraan todellisuudessa
+#### 6. Representation Engine — Emme elä suoraan todellisuudessa
 
 Signaali, havainto, muisto, tunne, tulkinta, ennuste, fantasia, maailmamalli ja totuusarvo.
 
-#### 6. Representational Grammar — Mille todellisuudelle mielessä on muoto?
+#### 7. Representational Grammar — Mille todellisuudelle mielessä on muoto?
 
 Representaatiotyypit, erottelukyky, ambivalenssi, sattuma, autonomia, epävarmuus ja AND-capacity.
 
-#### 7. Blind Spots and Resolution — Alimallinnuksen maailma
+#### 8. Blind Spots and Resolution — Alimallinnuksen maailma
 
 Puuttuvat kategoriat, sulautuneet representaatiot, asymmetrinen mallinnusresoluutio ja kuormituksessa saavuttamattomat muodot.
 
-#### 8. Generative Surplus — Kun mieli tuottaa enemmän kuin maailma antaa
+#### 9. Generative Surplus — Kun mieli tuottaa enemmän kuin maailma antaa
 
 Ylimallinnus, kuvitteelliset toimijat, piilotetut syyt, apofenia ja sokean pisteen täyttäminen Kernel-yhteensopivalla selityksellä.
 
-#### 9. Provenance — Havainto, muisto, ennuste vai fantasia?
+#### 10. Provenance — Havainto, muisto, ennuste vai fantasia?
 
 Lähdetieto, truth-value separation, episteminen palomuuri ja varovaiset sillat minimal self- ja psykoositutkimukseen.
 
 ### OSA III — Yhteysrakenne: miksi yksi asia merkitsee toista?
 
-#### 10. Meaning Networks — Merkitys syntyy yhteyksistä
+#### 11. Meaning Networks — Merkitys syntyy yhteyksistä
 
 Solmut, painot, reitit, hubit, keystone-representaatiot ja Structural Replacement Cost.
 
-#### 11. Salience and Self-Relevance — Mikä pääsee keskiöön?
+#### 12. Salience and Self-Relevance — Mikä pääsee keskiöön?
 
 Huomion painotus, henkilökohtainen relevanssi, merkityksenanto, confidence ja evidenssikalibraatio.
 
-#### 12. Person or Function — Näenkö sinut vai tehtäväsi minulle?
+#### 13. Person or Function — Näenkö sinut vai tehtäväsi minulle?
 
 Henkilörepresentaatio, toimijuus, rooli, resurssi, uhka, säätelyfunktio ja kuormitusregressio.
 
-#### 13. Responsibility Routing — Syyllisyyden markkinat
+#### 14. Responsibility Routing — Syyllisyyden markkinat
 
 Vastuun jako, self-blame, blame externalization, guilt absorption, syntipukit ja systeemisen säätelykustannuksen siirtäminen.
 
-#### 14. Topological Empathy — Toisen yhteysrakenteen mallintaminen
+#### 15. Topological Empathy — Toisen yhteysrakenteen mallintaminen
 
-Rakenteellinen empatia, integraatio, projektiovirhe, Universality Illusion ja ymmärtäminen ilman absorptiota tai hyväksymispakkoa.
+Rakenteellinen empatia, integraatio, projektiovirhe, Universality Illusion, topologisen vastavuoroisuuden oletus, epäsymmetrinen kartanpäivitys ja ymmärtäminen ilman absorptiota tai hyväksymispakkoa.
 
 ### OSA IV — Käyttöoikeudet: kuka pääsee kirjoittamaan minuun?
 
-#### 15. Process Isolation — Minä en ole sinä
+#### 16. Process Isolation — Minä en ole sinä
 
 Self–other-raja, kokemuksen omistajuus ja vaikutus ilman toimijuuden tai alkuperän sekoittumista.
 
-#### 16. Kernel Firewall — Rakkaus ilman root-oikeuksia
+#### 17. Kernel Firewall — Rakkaus ilman root-oikeuksia
 
 Access control, update permissions, virheen lokalisaatio, rajapinnat ja käyttäjätilan sisällön perusteeton ylentäminen Kernel-invariantiksi.
 
-#### 17. Kernel Adjacency — Mitkä representaatiot saavat erityisoikeudet?
+#### 18. Kernel Adjacency — Mitkä representaatiot saavat erityisoikeudet?
 
 Kernelin koko, privilegioidut prosessit, identity coupling, write access, removal cost ja digital twin Kernel-läheisenä user-space-rakenteena.
 
-#### 18. Intimacy and Access — Läheisyys käyttöoikeusneuvotteluna
+#### 19. Intimacy and Access — Läheisyys käyttöoikeusneuvotteluna
 
 Kehon omistajuus, suostumus, toimijuus, rajojen tilapäinen avaaminen, person–function-erottelu sekä paikallinen antautuminen suhteellisen vallan välineenä. Seksuaalisuutta käytetään tapausesimerkkinä, ei topologian diagnoosina.
 
-#### 19. Topological Probing — Rajojen ja oikeuksien testaaminen
+#### 20. Topological Probing — Rajojen ja oikeuksien testaaminen
 
 Deniable signaling, sosiaalinen kaikuluotaus, boundary testing, informaation kerääminen ja toiminnan jälkikäteinen tulkintavalta.
 
 ### OSA V — Generatiiviset ennakko-oletukset: mitä mieli lisää havaintoon?
 
-#### 20. Prediction Before Evidence — Maailma alkaa ennen havaintoa
+#### 21. Prediction Before Evidence — Maailma alkaa ennen havaintoa
 
 Ennustaminen, prior, confidence, ennustevirhe ja se, miten Kernel-tarpeet painottavat mahdollisia selityksiä.
 
-#### 21. Represented Uncertainty — Kyky olla vielä tietämättä
+#### 22. Represented Uncertainty — Kyky olla vielä tietämättä
 
 Tietämättömyys ylläpidettävänä representaationa, hypoteesien haarautuminen, pruning ja pakonomaisen sulkeuman kustannus.
 
-#### 22. Synthetic Social Agents — Mielikuvitusystävästä sisäiseen simulaatioon
+#### 23. Synthetic Social Agents — Mielikuvitusystävästä sisäiseen simulaatioon
 
 Kuvitteelliset agentit, turvallinen social simulation, autonomian mallintaminen, provenienssi ja ero digital twinin sekä ilman ulkoista alkuperäiskappaletta luodun agentin välillä.
 
-#### 23. Projection Fallacy — Kun oma prior näyttää universaalilta
+#### 24. Projection Fallacy — Kun oma prior näyttää universaalilta
 
 Topological Projection Fallacy, empatiaan liittyvä universaalisuusilluusio ja toisen käyttäytymisen täyttäminen omalla sisäisellä logiikalla.
 
-#### 24. Reification — Milloin mahdollisuudesta tulee koettu tosiasia?
+#### 25. Reification — Milloin mahdollisuudesta tulee koettu tosiasia?
 
 Apofenia, self-relevance, tunnevarmuus, vastanäyttö, todellisuuden korjausoikeus ja generatiivisen mallin itseään vahvistavat silmukat.
 
 ### OSA VI — Tilasiirtymät: kuka olen, kun kaikkea ei voida säilyttää?
 
-#### 25. Simultaneity and Integration — JA-operaattorin kapasiteetti
+#### 26. Simultaneity and Integration — JA-operaattorin kapasiteetti
 
 Ristiriitaisten totuuksien samanaikaisuus, holding capacity, integration ja kuormituksen vaikutus.
 
-#### 26. Compression and Reality Tolerance — Kun todellisuus käy liian kalliiksi
+#### 27. Compression and Reality Tolerance — Kun todellisuus käy liian kalliiksi
 
 Splitting, kategorisuus, hostile attribution, reject, reweight, reinterpret, externalize ja Reality Tolerance Window.
 
-#### 27. State Machines — Hyvä maailma ja paha maailma
+#### 28. State Machines — Hyvä maailma ja paha maailma
 
 Paikallinen päivitys, maailmatilan vaihto, idealisaatio, devalvaatio, watchdog-hypoteesi ja tilojen välinen muisti.
 
-#### 28. Bifurcation — Kumpi uhrataan?
+#### 29. Bifurcation — Kumpi uhrataan?
 
 Self-Sacrifice- ja Other-Sacrifice-attractorit, uhraamisjärjestys, vastuureitit, polaariset siirtymät ja ero todellisen integraation sekä vastakkaiseen ääripäähän siirtymisen välillä.
 
-#### 29. Altered Runtimes and Recovery — Muuttunut tila ei ole uusi totuus
+#### 30. Altered Runtimes and Recovery — Muuttunut tila ei ole uusi totuus
 
 Päihteet, riippuvuus, koettu syvyys, state regulation, stress regression, palautumislatenssi ja rakenteellisen muutoksen avoimet mekanismit.
 
 ### OSA VII — Ympäristön stabilointisopimus: mitä tarvitsemme toisiltamme?
 
-#### 30. Kernel Stability — Vakaus, jäykkyys ja todellisuuskustannus
+#### 31. Kernel Stability — Vakaus, jäykkyys ja todellisuuskustannus
 
 Perusvakaus, häiriönsieto, jatkuvuus, rajojen säilyminen, päivitettävyys, palautuminen sekä ero toiminnallisen vakauden ja puolustetun jäykkyyden välillä.
 
-#### 31. External Stabilization Demand — Mitä ympäristön täytyy tuottaa?
+#### 32. External Stabilization Demand — Mitä ympäristön täytyy tuottaa?
 
 Läsnäolo, hyväksyntä, ihailu, ennustettavuus, syyttömyyden vahvistus, tarpeellisuus, provider specificity, signaalin taajuus ja katoamisen kustannus.
 
-#### 32. Co-Regulation or Outsourced Kernel — Kuka kantaa vakauden?
+#### 33. Co-Regulation or Outsourced Kernel — Kuka kantaa vakauden?
 
 Terve yhteissäätely, vastavuoroisuus, ulkoistettu Kernel-toiminto, kieltäytymisen sieto ja se, kuka muuttuu ristiriidan ratkaisemiseksi.
 
-#### 33. Distributed Systems — Läheisyys ilman Kernelin menetystä
+#### 34. Distributed Systems — Läheisyys ilman Kernelin menetystä
 
 Kiintymys, autonomia, keskinäinen riippuvuus, korjaavat rajapinnat ja kaksi toimijaa samassa suhteessa.
 
-#### 34. Shared Reality and Shared Fantasy — Kahden topologian yhteinen maailma
+#### 35. Shared Reality and Shared Fantasy — Kahden topologian yhteinen maailma
 
 Relationaalinen synkronointi, korjaava todellisuus, fusion, idealisaatio, `Dual Mothership` -siltahypoteesi sekä uskonto ja ideologia varovaisina shared-kernel-tarkasteluina.
 
-#### 35. Compatibility and Conflict — Kun stabilointisopimukset kohtaavat
+#### 36. Compatibility and Conflict — Kun stabilointisopimukset kohtaavat
 
 Täydentävät puolustukset, hyväksikäyttöreitit, Local Sacrifice / Global Control, guilt markets ja Cross-Topology Blind-Spot Matrix.
 
 ### OSA VIII — Human Topology Atlas: kartasto, ekologia ja muutos
 
-#### 36. How to Read an Atlas — Topologia ei ole tyyppi
+#### 37. How to Read an Atlas — Topologia ei ole tyyppi
 
-Atlas-entryn kuusiosainen ydin, jatkuvat ulottuvuudet, konteksti, kuormitustilat ja epistemiset tunnisteet.
+Atlas-entryn kuusiosainen ydin, jatkuvat ulottuvuudet, konteksti, kuormitustilat ja epistemiset tunnisteet. Representaatio-, kokemus-, yksilö-, suhde- ja kulttuuritopologian mittakaavat sekä vaikutuksen kaksisuuntaisuus.
 
-#### 37. Candidate Structural Profiles — Profiilit koordinaatiston jälkeen
+#### 38. Candidate Structural Profiles — Profiilit koordinaatiston jälkeen
 
-Self-Sacrifice, Other-Sacrifice, autonomy, fusion, threat-salience ja muut kandidaatilliset profiilit. Niitä ei esitetä lukittuina universaaleina topologioina ennen erottavia ennusteita ja falsifiointikriteerejä.
+Self-Sacrifice- ja Other-Sacrifice-painotteiset konfiguraatiot sekä autonomia-, fusion- ja centring-ulottuvuuksista ja threat-salience-tiloista muodostuvat kandidaatilliset profiilit. Attraktoreita, tiloja ja ulottuvuuksia ei esitetä omina kokonaisina ihmistyyppeinään eikä profiileja lukita universaaleiksi topologioiksi ennen erottavia ennusteita ja falsifiointikriteerejä.
 
-#### 38. Cross-Topology Blind Spots — Miksi näemme toisemme väärin?
+#### 39. Cross-Topology Blind Spots — Miksi näemme toisemme väärin?
 
 Sanaston, yhteysrakenteen, käyttöoikeuksien, priorien, tilasiirtymien ja ympäristösopimusten väliset systemaattiset väärinluennat.
 
-#### 39. Topology + Environment — Suhteellinen fitness ja kustannus
+#### 40. Topology + Environment — Suhteellinen fitness ja kustannus
 
 Frequency-dependent strategies, Partner Replaceability, kaupungistuminen, sosiaalinen liikkuvuus, niche construction ja extended phenotype -analogia ilman evolutiivista yliväitettä.
 
-#### 40. System Change — Voiko topologia oppia uuden rakenteen?
+#### 41. System Change — Voiko topologia oppia uuden rakenteen?
 
 Korjaavat kokemukset, terapia tutkimuskontekstina, uudet representatiiviset muodot, yhteyksien uudelleenpainotus, käyttöoikeuksien palautus, priorien kalibrointi ja ympäristösopimuksen neuvottelu.
 
-#### 41. Topological Freedom — Kartan näkeminen karttana
+#### 42. Topological Freedom — Kartan näkeminen karttana
 
 Oma topologia ei ole todellisuus, toisen topologia ei ole oma, vastuu ei ole kaikkivaltaa eikä kaikkea tarvitse hallita tai korjata.
 
@@ -1897,7 +2270,7 @@ Ihmisen pieni mutta merkityksellinen paikka järjestelmässä, jota hän ei voi 
 
 ---
 
-## 31. Filosofinen päätepiste
+## 32. Filosofinen päätepiste
 
 Human Topology Atlas ei pääty täydelliseen ihmisten lukemiseen. Sellainen lupaus olisi itsessään kontrollifantasia.
 
@@ -1921,11 +2294,11 @@ Ja teoksen viimeinen suunta on:
 
 Oma pienuus universumissa ei vähennä ihmisen arvoa. Se vapauttaa mahdottomasta tehtävästä olla maailman keskipiste ja säätelijä.
 
-> **Rauha syntyy, kun kernel lakkaa vaatimasta universumilta sellaista hallittavuutta, jota universumi ei koskaan luvannut.**
+> **Rauha syntyy, kun mieli lakkaa vaatimasta maailmalta sellaista hallittavuutta, jota maailma ei koskaan luvannut.**
 
 ---
 
-## 32. Ohjeet tätä kontekstia käyttävälle tekoälylle
+## 33. Ohjeet tätä kontekstia käyttävälle tekoälylle
 
 Kun kehität `Human Topology Atlas` -projektia:
 
@@ -1942,12 +2315,24 @@ Kun kehität `Human Topology Atlas` -projektia:
 11. Pidä erillään syyllisyyden tunne ja kausaalinen tai moraalinen vastuu.
 12. Kuvaa jokaisen topologian vahvuudet, sokeat pisteet, ekologinen niche, kuormitusregressio, palautuminen ja projektiovirheet.
 13. Kun ehdotat uutta mekanismia, kerro mikä havainto voisi kumota sen.
-14. Käytä ohjelmisto- ja ekologiametaforia selkeyttämiseen, ei tieteellisen aukon peittämiseen.
+14. Valitse kappaleelle yksi aktiivinen metaforarekisteri. Tähtitaivas, tähtikartta ja paikalliset keskukset kuuluvat yleisökieleen; Kernel, firewall, runtime, process isolation ja distributed systems tekniseen analyysiin. Jos molemmat tarvitaan, erottele ne omiksi kappaleikseen ja merkitse siirtymä sanalla “Teknisesti”. Älä rakenna yhdistelmämetaforia rekisterien yli.
 15. Kirjoita yleisölle ensin sisäisestä maailmasta ja merkitysverkosta; esittele topologia teknisenä tarkennuksena vasta kun intuitio on rakennettu.
 16. Säilytä projektin eettinen ydin: ymmärtäminen ilman alistumista, rajat ilman dehumanisointia ja vastuu ilman väärää syyllisyyttä.
+17. Käytä tähtitaivaan kartoitusta kantavana metaforana: erottele havaitut pisteet, havaitsijan piirtämät yhteydet ja maailmassa todellisuudessa olevat suhteet. Älä johda metaforasta mekanismia.
+18. Säilytä episteminen ketju `todellisuus → signaalit → sisäinen topologia → koettu todellisuus`. Kohtele kokemusta aitona kokemuksena ilman että vahvistat automaattisesti sen tulkintaa ulkoisesta todellisuudesta.
+19. Käsittele `Keskipisteen suhteellisuutta` filosofisena ja järjestelmäteoreettisena siltana sekä `topologista geosentrisyyttä` narsistista organisaatiota koskevana hypoteesina ja centring-ulottuvuuksien arvorakenteena. Älä kirjoita, ettei narsistinen ihminen näkisi muita ihmisinä.
+20. Älä oleta kartanpäivityksen vastavuoroisuutta. Kun kaksi mallia kohtaavat, kysy erikseen, saako maasto korjata kumpaakin ja kuka kantaa päivityskustannuksen.
+21. Erota representaatio-, kokemus-, yksilö-, suhde- ja sosiaalinen/kulttuurinen topologia. Mallinna vaikutus kaksisuuntaiseksi ja huomioi niche construction.
+22. Erota ulottuvuudet, attraktorit, tilat, strategiat, kuuden osan konfiguraatiot ja kandidaatilliset profiilit. `Keskeisyysasetus` on centring-ulottuvuusperheen dimensional pattern, ei uusi päätaso eikä synonyymi topologialle.
 
 ---
 
-## 33. Yhden kappaleen vakiotiivistelmä
+## 34. Vakiotiivistelmät rekistereittäin
 
-`Human Topology Atlas` on järjestelmäteoreettinen kartasto siitä, miten ihmisen mieli voi järjestää itsen, toiset ja todellisuuden erilaisiksi sisäisiksi rakenteiksi. Se määrittelee `Human Topologyn` kuuden kanonisen osan kokonaisuudeksi: representatiiviseksi sanastoksi, yhteysrakenteeksi, käyttöoikeuksiksi, generatiivisiksi ennakko-oletuksiksi, tilasiirtymiksi ja ympäristön stabilointisopimukseksi. Näiden perustana toimii `Human Kernel`, suojattu meta-arkkitehtuuri, joka ylläpitää jatkuvuutta, omistajuutta, toimijuutta, self–world- ja self–other-erottelua, provenancea, käyttöoikeuksia, päivityssääntöjä ja muita vähimmäisinvariantteja; `Structural Regulation Framework (SRF)` puolestaan kuvaa representaatiomäärän, simultaanisuuden, kompression ja palautumisen kuormitusdynamiikkaa. Atlas käyttää tätä rakennetta topologisen empatian, projektiovirheiden, asymmetrisen mallinnusresoluution, self-sacrifice- ja other-sacrifice-attraktoreiden, vastuun ja syyllisyyden reitityksen, henkilö- ja funktiorepresentaatioiden, salienssin, state-machine-dynamiikan, shared realityn, ontologisen turvallisuuden sekä evolutiivisen ja sosiaalisen ekologian tutkimiseen. Se ei luokittele ihmisiä pysyviksi tyypeiksi eikä esitä hypoteeseja vahvistettuina faktoina. Sen lupaus on auttaa näkemään oma ja toisen topologia sekoittamatta kumpaakaan todellisuuteen — ja löytämään vastuu, rajat ja rauha maailmassa, jota kukaan ei voi täysin hallita.
+### 34.1 Reader-facing summary
+
+`Human Topology Atlas` on **topologinen kartta ihmismetsään**. Me katsomme samaa tähtitaivasta, mutta emme piirrä samoja viivoja tähtien välille: sama hiljaisuus voi yhdelle merkitä rauhaa, toiselle hylkäämistä ja kolmannelle uhkaa. Merkitys ei sijaitse yksittäisessä signaalissa vaan syntyy siitä, mihin se omassa sisäisessä kartassamme kytkeytyy. Jokainen on oman kokemuksensa paikallinen keskus, mutta kukaan ei koko sosiaalisen todellisuuden absoluuttinen keskus. Atlas antaa nimiä näille näkymättömille rakenteille, auttaa erottamaan kartan maastosta ja näyttää, miksi toisen kartan ymmärtäminen ei vaadi oman kartan, rajojen tai vastuun menettämistä.
+
+### 34.2 Canonical technical summary
+
+`Human Topology Atlas` määrittelee Human Topologyn kuuden kanonisen osan kokonaisuudeksi: representatiiviseksi sanastoksi, yhteysrakenteeksi, käyttöoikeuksiksi, generatiivisiksi ennakko-oletuksiksi, tilasiirtymiksi ja ympäristön stabilointisopimukseksi. Human Kernel kuvaa näiden alla jatkuvuutta, omistajuutta, toimijuutta, self–world- ja self–other-erottelua, provenancea sekä päivitysoikeuksia; SRF kuvaa simultaanisuuden, kompression ja palautumisen kuormitusdynamiikkaa. Ontologiassa ulottuvuudet, attraktorit, tilat, strategiat, kuuden osan konfiguraatiot ja kandidaatilliset profiilit ovat eri lajisia käsitteitä. Keskeisyysasetus on kahden itsenäisen cross-map centring -ulottuvuuden arvorakenne: topologinen geosentrisyys on hypoteettinen selfiä ylikeskittävä asetus, ei narsismin määritelmä, ja Self-Sacrificeen liitetty toista ylikeskittäminen on erillinen hypoteesi, ei Self-Sacrifice-attractori itsessään. Käsitteet toimivat representaatio-, kokemus-, yksilö-, suhde- ja kulttuuritasoilla kaksisuuntaisesti. Atlas erottaa aidon kokemuksen sen ulkoista todellisuutta koskevasta tulkinnasta, vaatii evidenssille avoimia karttoja eikä luokittele ihmisiä pysyviksi tyypeiksi.
